@@ -1,0 +1,296 @@
+[
+  {
+    "id": 1,
+    "name": "Club Masculino 1",
+    "address": "Dirección 1",
+    "foundation_date": "1981-01-01",
+    "logo": "escudos/RCen.png"
+  },
+  {
+    "id": 2,
+    "name": "Club Masculino 2",
+    "address": "Dirección 2",
+    "foundation_date": "1982-01-01",
+    "logo": "escudos/RCen.png"
+  },
+  {
+    "id": 3,
+    "name": "Club Masculino 3",
+    "address": "Dirección 3",
+    "foundation_date": "1983-01-01",
+    "logo": "escudos/RCen.png"
+  },
+  {
+    "id": 4,
+    "name": "Club Masculino 4",
+    "address": "Dirección 4",
+    "foundation_date": "1984-01-01",
+    "logo": "escudos/RCen.png"
+  },
+  {
+    "id": 5,
+    "name": "Club Masculino 5",
+    "address": "Dirección 5",
+    "foundation_date": "1985-01-01",
+    "logo": "escudos/RCen.png"
+  },
+  {
+    "id": 6,
+    "name": "Club Masculino 6",
+    "address": "Dirección 6",
+    "foundation_date": "1986-01-01",
+    "logo": "escudos/RCen.png"
+  },
+  {
+    "id": 7,
+    "name": "Club Masculino 7",
+    "address": "Dirección 7",
+    "foundation_date": "1987-01-01",
+    "logo": "escudos/RCen.png"
+  },
+  {
+    "id": 8,
+    "name": "Club Masculino 8",
+    "address": "Dirección 8",
+    "foundation_date": "1988-01-01",
+    "logo": "escudos/RCen.png"
+  },
+  {
+    "id": 9,
+    "name": "Club Masculino 9",
+    "address": "Dirección 9",
+    "foundation_date": "1989-01-01",
+    "logo": "escudos/RCen.png"
+  },
+  {
+    "id": 10,
+    "name": "Club Masculino 10",
+    "address": "Dirección 10",
+    "foundation_date": "1990-01-01",
+    "logo": "escudos/RCen.png"
+  },
+  {
+    "id": 11,
+    "name": "Club Masculino 11",
+    "address": "Dirección 11",
+    "foundation_date": "1991-01-01",
+    "logo": "MDG/escudos/RCen.png"
+  },
+  {
+    "id": 12,
+    "name": "Club Masculino 12",
+    "address": "Dirección 12",
+    "foundation_date": "1992-01-01",
+    "logo": "escudos/RCen.png"
+  },
+  {
+    "id": 13,
+    "name": "Club Masculino 13",
+    "address": "Dirección 13",
+    "foundation_date": "1993-01-01",
+    "logo": "escudos/RCen.png"
+  },
+  {
+    "id": 14,
+    "name": "Club Masculino 14",
+    "address": "Dirección 14",
+    "foundation_date": "1994-01-01",
+    "logo": "escudos/RCen.png"
+  },
+  {
+    "id": 15,
+    "name": "Club Masculino 15",
+    "address": "Dirección 15",
+    "foundation_date": "1995-01-01",
+    "logo": "escudos/RCen.png"
+  },
+  {
+    "id": 16,
+    "name": "Club Masculino 16",
+    "address": "Dirección 16",
+    "foundation_date": "1996-01-01",
+    "logo": "escudos/RCen.png"
+  },
+  {
+    "id": 17,
+    "name": "Club Masculino 17",
+    "address": "Dirección 17",
+    "foundation_date": "1997-01-01",
+    "logo": "escudos/RCen.png"
+  },
+  {
+    "id": 18,
+    "name": "Club Masculino 18",
+    "address": "Dirección 18",
+    "foundation_date": "1998-01-01",
+    "logo": "escudos/RCen.png"
+  },
+  {
+    "id": 19,
+    "name": "Club Masculino 19",
+    "address": "Dirección 19",
+    "foundation_date": "1999-01-01",
+    "logo": "escudos/RCen.png"
+  },
+  {
+    "id": 20,
+    "name": "Club Masculino 20",
+    "address": "Dirección 20",
+    "foundation_date": "1980-01-01",
+    "logo": "escudos/RCen.png"
+  },
+  {
+    "id": 21,
+    "name": "Club Masculino 21",
+    "address": "Dirección 21",
+    "foundation_date": "1981-01-01",
+    "logo": "escudos/RCen.png"
+  },
+  {
+    "id": 22,
+    "name": "Club Masculino 22",
+    "address": "Dirección 22",
+    "foundation_date": "1982-01-01",
+    "logo": "escudos/RCen.png"
+  },
+  {
+    "id": 23,
+    "name": "Club Masculino 23",
+    "address": "Dirección 23",
+    "foundation_date": "1983-01-01",
+    "logo": "escudos/RCen.png"
+  },
+  {
+    "id": 24,
+    "name": "Club Masculino 24",
+    "address": "Dirección 24",
+    "foundation_date": "1984-01-01",
+    "logo": "escudos/RCen.png"
+  },
+  {
+    "id": 25,
+    "name": "Club Masculino 25",
+    "address": "Dirección 25",
+    "foundation_date": "1985-01-01",
+    "logo": "escudos/RCen.png"
+  },
+  {
+    "id": 26,
+    "name": "Club Masculino 26",
+    "address": "Dirección 26",
+    "foundation_date": "1986-01-01",
+    "logo": "escudos/RCen.png"
+  },
+  {
+    "id": 27,
+    "name": "Club Femenino 27",
+    "address": "Dirección 27",
+    "foundation_date": "1987-01-01",
+    "logo": "escudos/NOB.png"
+  },
+  {
+    "id": 28,
+    "name": "Club Femenino 28",
+    "address": "Dirección 28",
+    "foundation_date": "1988-01-01",
+    "logo": "escudos/NOB.png"
+  },
+  {
+    "id": 29,
+    "name": "Club Femenino 29",
+    "address": "Dirección 29",
+    "foundation_date": "1989-01-01",
+    "logo": "escudos/NOB.png"
+  },
+  {
+    "id": 30,
+    "name": "Club Femenino 30",
+    "address": "Dirección 30",
+    "foundation_date": "1990-01-01",
+    "logo": "escudos/NOB.png"
+  },
+  {
+    "id": 31,
+    "name": "Club Femenino 31",
+    "address": "Dirección 31",
+    "foundation_date": "1991-01-01",
+    "logo": "escudos/NOB.png"
+  },
+  {
+    "id": 32,
+    "name": "Club Femenino 32",
+    "address": "Dirección 32",
+    "foundation_date": "1992-01-01",
+    "logo": "escudos/NOB.png"
+  },
+  {
+    "id": 33,
+    "name": "Club Femenino 33",
+    "address": "Dirección 33",
+    "foundation_date": "1993-01-01",
+    "logo": "escudos/NOB.png"
+  },
+  {
+    "id": 34,
+    "name": "Club Femenino 34",
+    "address": "Dirección 34",
+    "foundation_date": "1994-01-01",
+    "logo": "escudos/NOB.png"
+  },
+  {
+    "id": 35,
+    "name": "Club Femenino 35",
+    "address": "Dirección 35",
+    "foundation_date": "1995-01-01",
+    "logo": "escudos/NOB.png"
+  },
+  {
+    "id": 36,
+    "name": "Club Femenino 36",
+    "address": "Dirección 36",
+    "foundation_date": "1996-01-01",
+    "logo": "escudos/NOB.png"
+  },
+  {
+    "id": 37,
+    "name": "Club Femenino 37",
+    "address": "Dirección 37",
+    "foundation_date": "1997-01-01",
+    "logo": "escudos/NOB.png"
+  },
+  {
+    "id": 38,
+    "name": "Club Femenino 38",
+    "address": "Dirección 38",
+    "foundation_date": "1998-01-01",
+    "logo": "escudos/NOB.png"
+  },
+  {
+    "id": 39,
+    "name": "Club Femenino 39",
+    "address": "Dirección 39",
+    "foundation_date": "1999-01-01",
+    "logo": "escudos/NOB.png"
+  },
+  {
+    "id": 40,
+    "name": "Club Femenino 40",
+    "address": "Dirección 40",
+    "foundation_date": "1980-01-01",
+    "logo": "escudos/NOB.png"
+  },
+  {
+    "id": 41,
+    "name": "Club Femenino 41",
+    "address": "Dirección 41",
+    "foundation_date": "1981-01-01",
+    "logo": "escudos/NOB.png"
+  },
+  {
+    "id": 42,
+    "name": "Club Femenino 42",
+    "address": "Dirección 42",
+    "foundation_date": "1982-01-01",
+    "logo": "escudos/NOB.png"
+  }
+]

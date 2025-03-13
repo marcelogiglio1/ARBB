@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARBB App</title>
+    <link rel="stylesheet" href="prueba.css">
+</head>
+<body>
+    <nav class="navbar">
+        <img src="escudos/logo.png" alt="Logo ARBB">
+        <h1>ASOCIACION ROSARINA DE BASQUETBOL</h1>
+        <div class="menu-icon" onclick="toggleMenu()">☰</div>
+    </nav>
+
+    <div class="menu" id="menu">
+        <a href="planteles.html">Planteles</a>
+        <a href="posiciones.html">Posiciones</a>
+        <a href="estadisticas.html">Estadísticas</a>
+        <a href="partidos.html">Partidos</a>
+    </div>
+
+    <section class="header-container">
+        <h2>Planteles</h2>
+        <div class="divider"></div>
+    </section>
+
+    <section class="league-buttons">
+        <button class="superliga" id="superligaButton" onclick="location.href='planteles.html'">Planteles</button>
+    </section>
+
+    <section class="header-container">
+        <h2>Líderes</h2>
+        <div class="divider"></div>
+    </section>
+
+    <div class="container">
+        <div class="row">
+            <button class="player-btn" id="masculino-puntos"></button>
+            <button class="player-btn" id="masculino-rebotes"></button>
+            <button class="player-btn" id="masculino-asistencias"></button>
+        </div>
+        <div class="row">
+            <button class="player-btn" id="femenino-puntos"></button>
+            <button class="player-btn" id="femenino-rebotes"></button>
+            <button class="player-btn" id="femenino-asistencias"></button>
+        </div>
+    </div>
+
+    <section class="header-container">
+        <h2>Posiciones</h2>
+        <div class="divider"></div>
+    </section>
+
+    <section class="league-buttons">
+        <button class="superliga" onclick="location.href='posiciones.html?torneo=masculino'">SuperLiga</button>
+        <button class="primera-femenina" onclick="location.href='posiciones.html?torneo=femenino'">1ra Femenina</button>        
+    </section>
+
+    <section class="header-container">
+        <h2>Transmisiones</h2>
+        <div class="divider"></div>
+    </section>
+
+    <div class="tv">
+        <button class="games" onclick="location.href='partidos.html'">Juegos de Hoy</button>
+    </div>
+
+    <footer class="footer">
+        <p>Todos los derechos reservados 2025</p>
+    </footer>
+    
+    <script src="script.js"></script>
+    <script src="partidos.js"></script>
+    <script src="estadisticas.js"></script>
+</body>
+</html>

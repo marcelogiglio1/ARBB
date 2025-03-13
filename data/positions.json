@@ -1,0 +1,422 @@
+[
+  {
+    "team_name": "Club Masculino 1",
+    "tournament": false,
+    "games_played": 10,
+    "wins": 2,
+    "losses": 8,
+    "points_for": 724,
+    "points_against": 662,
+    "points": 12
+  },
+  {
+    "team_name": "Club Masculino 2",
+    "tournament": false,
+    "games_played": 16,
+    "wins": 0,
+    "losses": 16,
+    "points_for": 1214,
+    "points_against": 1129,
+    "points": 16
+  },
+  {
+    "team_name": "Club Masculino 3",
+    "tournament": false,
+    "games_played": 14,
+    "wins": 6,
+    "losses": 8,
+    "points_for": 1019,
+    "points_against": 987,
+    "points": 20
+  },
+  {
+    "team_name": "Club Masculino 4",
+    "tournament": false,
+    "games_played": 17,
+    "wins": 15,
+    "losses": 2,
+    "points_for": 1374,
+    "points_against": 1236,
+    "points": 32
+  },
+  {
+    "team_name": "Club Masculino 5",
+    "tournament": false,
+    "games_played": 13,
+    "wins": 4,
+    "losses": 9,
+    "points_for": 1079,
+    "points_against": 968,
+    "points": 17
+  },
+  {
+    "team_name": "Club Masculino 6",
+    "tournament": false,
+    "games_played": 1,
+    "wins": 0,
+    "losses": 1,
+    "points_for": 341,
+    "points_against": 340,
+    "points": 1
+  },
+  {
+    "team_name": "Club Masculino 7",
+    "tournament": false,
+    "games_played": 13,
+    "wins": 10,
+    "losses": 3,
+    "points_for": 1187,
+    "points_against": 1076,
+    "points": 23
+  },
+  {
+    "team_name": "Club Masculino 8",
+    "tournament": false,
+    "games_played": 12,
+    "wins": 11,
+    "losses": 1,
+    "points_for": 893,
+    "points_against": 805,
+    "points": 23
+  },
+  {
+    "team_name": "Club Masculino 9",
+    "tournament": false,
+    "games_played": 14,
+    "wins": 6,
+    "losses": 8,
+    "points_for": 1107,
+    "points_against": 957,
+    "points": 20
+  },
+  {
+    "team_name": "Club Masculino 10",
+    "tournament": false,
+    "games_played": 17,
+    "wins": 2,
+    "losses": 15,
+    "points_for": 1347,
+    "points_against": 1295,
+    "points": 19
+  },
+  {
+    "team_name": "Club Masculino 11",
+    "tournament": false,
+    "games_played": 0,
+    "wins": 0,
+    "losses": 0,
+    "points_for": 85,
+    "points_against": -51,
+    "points": 0
+  },
+  {
+    "team_name": "Club Masculino 12",
+    "tournament": false,
+    "games_played": 1,
+    "wins": 0,
+    "losses": 1,
+    "points_for": 110,
+    "points_against": -31,
+    "points": 1
+  },
+  {
+    "team_name": "Club Masculino 13",
+    "tournament": false,
+    "games_played": 11,
+    "wins": 2,
+    "losses": 9,
+    "points_for": 905,
+    "points_against": 784,
+    "points": 13
+  },
+  {
+    "team_name": "Club Masculino 14",
+    "tournament": false,
+    "games_played": 14,
+    "wins": 12,
+    "losses": 2,
+    "points_for": 1215,
+    "points_against": 1190,
+    "points": 26
+  },
+  {
+    "team_name": "Club Masculino 15",
+    "tournament": false,
+    "games_played": 19,
+    "wins": 17,
+    "losses": 2,
+    "points_for": 1625,
+    "points_against": 1599,
+    "points": 36
+  },
+  {
+    "team_name": "Club Masculino 16",
+    "tournament": false,
+    "games_played": 17,
+    "wins": 16,
+    "losses": 1,
+    "points_for": 1266,
+    "points_against": 1226,
+    "points": 33
+  },
+  {
+    "team_name": "Club Masculino 17",
+    "tournament": false,
+    "games_played": 8,
+    "wins": 6,
+    "losses": 2,
+    "points_for": 792,
+    "points_against": 676,
+    "points": 14
+  },
+  {
+    "team_name": "Club Masculino 18",
+    "tournament": false,
+    "games_played": 15,
+    "wins": 14,
+    "losses": 1,
+    "points_for": 1147,
+    "points_against": 1013,
+    "points": 29
+  },
+  {
+    "team_name": "Club Masculino 19",
+    "tournament": false,
+    "games_played": 12,
+    "wins": 7,
+    "losses": 5,
+    "points_for": 1137,
+    "points_against": 1125,
+    "points": 19
+  },
+  {
+    "team_name": "Club Masculino 20",
+    "tournament": false,
+    "games_played": 9,
+    "wins": 4,
+    "losses": 5,
+    "points_for": 839,
+    "points_against": 766,
+    "points": 13
+  },
+  {
+    "team_name": "Club Masculino 21",
+    "tournament": false,
+    "games_played": 3,
+    "wins": 1,
+    "losses": 2,
+    "points_for": 351,
+    "points_against": 234,
+    "points": 4
+  },
+  {
+    "team_name": "Club Masculino 22",
+    "tournament": false,
+    "games_played": 3,
+    "wins": 0,
+    "losses": 3,
+    "points_for": 312,
+    "points_against": 175,
+    "points": 3
+  },
+  {
+    "team_name": "Club Masculino 23",
+    "tournament": false,
+    "games_played": 12,
+    "wins": 6,
+    "losses": 6,
+    "points_for": 960,
+    "points_against": 864,
+    "points": 18
+  },
+  {
+    "team_name": "Club Masculino 24",
+    "tournament": false,
+    "games_played": 0,
+    "wins": 0,
+    "losses": 0,
+    "points_for": 240,
+    "points_against": 187,
+    "points": 0
+  },
+  {
+    "team_name": "Club Masculino 25",
+    "tournament": false,
+    "games_played": 8,
+    "wins": 5,
+    "losses": 3,
+    "points_for": 596,
+    "points_against": 556,
+    "points": 13
+  },
+  {
+    "team_name": "Club Masculino 26",
+    "tournament": false,
+    "games_played": 3,
+    "wins": 0,
+    "losses": 3,
+    "points_for": 485,
+    "points_against": 484,
+    "points": 3
+  },
+  {
+    "team_name": "Club Femenino 27",
+    "tournament": true,
+    "games_played": 2,
+    "wins": 1,
+    "losses": 1,
+    "points_for": 161,
+    "points_against": 103,
+    "points": 3
+  },
+  {
+    "team_name": "Club Femenino 28",
+    "tournament": true,
+    "games_played": 11,
+    "wins": 3,
+    "losses": 8,
+    "points_for": 788,
+    "points_against": 646,
+    "points": 14
+  },
+  {
+    "team_name": "Club Femenino 29",
+    "tournament": true,
+    "games_played": 17,
+    "wins": 0,
+    "losses": 17,
+    "points_for": 1197,
+    "points_against": 1125,
+    "points": 17
+  },
+  {
+    "team_name": "Club Femenino 30",
+    "tournament": true,
+    "games_played": 0,
+    "wins": 0,
+    "losses": 0,
+    "points_for": 122,
+    "points_against": 71,
+    "points": 0
+  },
+  {
+    "team_name": "Club Femenino 31",
+    "tournament": true,
+    "games_played": 19,
+    "wins": 9,
+    "losses": 10,
+    "points_for": 1471,
+    "points_against": 1348,
+    "points": 28
+  },
+  {
+    "team_name": "Club Femenino 32",
+    "tournament": true,
+    "games_played": 8,
+    "wins": 4,
+    "losses": 4,
+    "points_for": 632,
+    "points_against": 483,
+    "points": 12
+  },
+  {
+    "team_name": "Club Femenino 33",
+    "tournament": true,
+    "games_played": 18,
+    "wins": 10,
+    "losses": 8,
+    "points_for": 1296,
+    "points_against": 1229,
+    "points": 28
+  },
+  {
+    "team_name": "Club Femenino 34",
+    "tournament": true,
+    "games_played": 16,
+    "wins": 5,
+    "losses": 11,
+    "points_for": 1144,
+    "points_against": 1052,
+    "points": 21
+  },
+  {
+    "team_name": "Club Femenino 35",
+    "tournament": true,
+    "games_played": 7,
+    "wins": 6,
+    "losses": 1,
+    "points_for": 768,
+    "points_against": 646,
+    "points": 13
+  },
+  {
+    "team_name": "Club Femenino 36",
+    "tournament": true,
+    "games_played": 10,
+    "wins": 6,
+    "losses": 4,
+    "points_for": 914,
+    "points_against": 864,
+    "points": 16
+  },
+  {
+    "team_name": "Club Femenino 37",
+    "tournament": true,
+    "games_played": 8,
+    "wins": 1,
+    "losses": 7,
+    "points_for": 800,
+    "points_against": 784,
+    "points": 9
+  },
+  {
+    "team_name": "Club Femenino 38",
+    "tournament": true,
+    "games_played": 4,
+    "wins": 2,
+    "losses": 2,
+    "points_for": 352,
+    "points_against": 237,
+    "points": 6
+  },
+  {
+    "team_name": "Club Femenino 39",
+    "tournament": true,
+    "games_played": 5,
+    "wins": 3,
+    "losses": 2,
+    "points_for": 627,
+    "points_against": 539,
+    "points": 8
+  },
+  {
+    "team_name": "Club Femenino 40",
+    "tournament": true,
+    "games_played": 8,
+    "wins": 6,
+    "losses": 2,
+    "points_for": 578,
+    "points_against": 521,
+    "points": 14
+  },
+  {
+    "team_name": "Club Femenino 41",
+    "tournament": true,
+    "games_played": 14,
+    "wins": 0,
+    "losses": 14,
+    "points_for": 1184,
+    "points_against": 1168,
+    "points": 14
+  },
+  {
+    "team_name": "Club Femenino 42",
+    "tournament": true,
+    "games_played": 12,
+    "wins": 4,
+    "losses": 8,
+    "points_for": 1071,
+    "points_against": 945,
+    "points": 16
+  }
+]

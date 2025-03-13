@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 10 Jugadores</title>
+    <link rel="stylesheet" href="estadisticas.css">
+</head>
+<body>
+    <div class="navbar">
+        <img src="escudos/logo.png" alt="Logo ARBB">
+        <h1>ASOCIACION ROSARINA DE BASQUETBOL</h1>
+        <div class="menu-icon" onclick="toggleMenu()">☰</div>
+        <div class="menu" id="menu">
+            <a href="inicio.html">INICIO</a>
+            <a href="planteles.html">Planteles</a>
+            <a href="posiciones.html">Posiciones</a>
+            <a href="partidos.html">Partidos</a>
+        </div>
+    </div>
+
+    <div class="league-buttons">
+        <button id="superligaButton">SuperLiga</button>
+        <button id="femeninaButton">1ra Femenina</button>
+    </div>
+    
+    <div class="table-buttons">
+        <button id="pointsButton" class="stat-button">Puntos</button>
+        <button id="reboundsButton" class="stat-button">Rebotes</button>
+        <button id="assistsButton" class="stat-button">Asistencias</button>
+    </div>
+
+    <div class="tables">
+        <table id="pointsTable" class="stat-table"></table>
+        <table id="reboundsTable" class="stat-table hidden"></table>
+        <table id="assistsTable" class="stat-table hidden"></table>
+    </div>
+
+
+
+    <div class="footer">
+        Todos los derechos reservados 2025
+    </div>
+    <script src="script.js"></script>
+    <script src="estadisticas.js"></script>
+</body>
+</html>

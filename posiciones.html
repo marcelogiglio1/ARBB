@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar ARBB</title>
+    <link rel="stylesheet" href="posiciones.css">
+</head>
+<body>
+    <div class="navbar">
+        <img src="escudos/logo.png" alt="Logo ARBB">
+        <h1>ASOCIACION ROSARINA DE BASQUETBOL</h1>
+        <div class="menu-icon" onclick="toggleMenu()">☰</div>
+        <div class="menu" id="menu">
+            <a href="inicio.html">INICIO</a>
+            <a href="planteles.html">Planteles</a>
+            <a href="estadisticas.html">Estadísticas</a>
+            <a href="partidos.html">Partidos</a>
+        </div>
+    </div>
+
+    <div class="header-container">
+        <div class="header"><span class="left-text">Posiciones</span></div>
+        <div class="divider"></div>
+    </div>
+
+
+    <div class="league-buttons">
+       <button class="superliga"  onclick="showTable('masculino')">SuperLiga</button>
+       <button class="primera-femenina" onclick="showTable('femenino')">1ra Femenina</button>
+   </div>
+
+   
+   <table id="masculino" style="display: table;">
+        <thead>
+            <tr>
+                <th>Equipo</th>
+                <th>J</th>
+                <th>G</th>
+                <th>P</th>
+                <th>PF</th>
+                <th>PC</th>
+                <th>DIF</th>
+                <th>Pts</th>
+            </tr>
+        </thead>
+        <tbody id="masculinoBody"></tbody>
+    </table>
+    
+    <table id="femenino">
+        <thead>
+            <tr>
+                <th>Equipo</th>
+                <th>PJ</th>
+                <th>PG</th>
+                <th>PP</th>
+                <th>PF</th>
+                <th>PC</th>
+                <th>Pts</th>
+            </tr>
+        </thead>
+        <tbody id="femeninoBody" style="background-color: rgb(200, 40, 45);"></tbody>
+    </table>
+
+    <div class="footer">
+        Todos los derechos reservados 2025
+    </div>
+    <script src="script.js"></script>
+    <script src="posiciones.js"></script>
+</body>
+</html>

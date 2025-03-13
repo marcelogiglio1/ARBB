@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar ARBB</title>
+    <link rel="stylesheet" href="planteles.css">
+</head>
+<body>
+    <div class="navbar">
+        <img src="escudos/logo.png" alt="Logo ARBB">
+        <h1>ASOCIACION ROSARINA DE BASQUETBOL</h1>
+        <div class="menu-icon" onclick="toggleMenu()">☰</div>
+        <div class="menu" id="menu">
+            <a href="inicio.html">INICIO</a>
+            <a href="posiciones.html">Posiciones</a>
+            <a href="estadisticas.html">Estadísticas</a>
+            <a href="partidos.html">Planteles</a>
+            
+        </div>
+    </div>
+
+    <div class="header-container">
+        <div class="header"><span class="left-text">Planteles</span></div>
+        <div class="divider"></div>
+    </div>
+    
+    <div class="league-buttons">
+        <button class="superliga" id="superligaButton">SuperLiga</button>
+        <button class="primera-femenina" id="femeninaButton">1ra Femenina</button>
+        
+    </div>
+
+    <div id="teamContainer"></div>
+    <div id="teamInfo"></div>
+    <button id="backButton" style="display: none;">Volver</button>
+    <div id="playerContainer"></div>
+
+    <div id="playerModal" class="modal">
+        <div class="modal-content" id="modalContent"></div>
+    </div>
+
+    <div class="footer">
+        Todos los derechos reservados 2025
+    </div>
+    <script src="script.js"></script>
+    <script src="partidos.js"></script>
+    <script src="estadisticas.js"></script>
+</body>
+</html>
