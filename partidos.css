@@ -111,3 +111,13 @@ button {
     bottom: 0;
 }
 
+@media (min-width: 630px) {
+    .masculino-button {
+        margin: auto;
+        width: 600px;
+    }
+    .femenino-button {
+        margin: 3% auto;
+        width: 600px;
+    }
+}
