@@ -9,7 +9,7 @@ const teams = [
     },
     {
       "id": 2,
-      "name": "Club Masculino 2",
+      "name": "Club Atalaya",
       "address": "Juan Manuel de Rosas 2550",
       "foundation_date": "1982-01-01",
       "logo": "escudos/Atalaya.png"
@@ -79,35 +79,35 @@ const teams = [
     },
     {
       "id": 12,
-      "name": "Club Masculino 12",
-      "address": "Dirección 12",
+      "name": "Club Atletico Provincial",
+      "address": "27 de Febrero 2760",
       "foundation_date": "1992-01-01",
       "logo": "escudos/Provincial.png"
     },
     {
       "id": 13,
-      "name": "Club Masculino 13",
-      "address": "Dirección 13",
+      "name": "Club de Regatas",
+      "address": "Cordiviola",
       "foundation_date": "1993-01-01",
       "logo": "escudos/Regatas.png"
     },
     {
       "id": 14,
-      "name": "Club Masculino 14",
-      "address": "Dirección 14",
+      "name": "Club Sportmen Unidos",
+      "address": "1 de Mayo 2030",
       "foundation_date": "1994-01-01",
       "logo": "escudos/SUnidos.png"
     },
     {
       "id": 15,
-      "name": "Club Masculino 15",
-      "address": "Dirección 15",
+      "name": "Club Atletico Temperley",
+      "address": "Ayacucho 2090",
       "foundation_date": "1995-01-01",
       "logo": "escudos/Temperley.png"
     },
     {
       "id": 16,
-      "name": "Club Masculino 16",
+      "name": "Club Union AS",
       "address": "Dirección 16",
       "foundation_date": "1996-01-01",
       "logo": "escudos/UnionAS.png"
@@ -156,7 +156,7 @@ const teams = [
     },
     {
       "id": 33,
-      "name": "Club Masculino 16",
+      "name": "Club Union AS",
       "address": "Dirección 16",
       "foundation_date": "1996-01-01",
       "logo": "escudos/UnionAS.png"
@@ -260,7 +260,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <p><strong>Puntos por juego:</strong> ${player.games_played > 0 ? (player.points / player.games_played).toFixed(2) : "N/A"} pts</p>
           <p><strong>Rebotes por juego:</strong> ${player.games_played > 0 ? (player.rebounds / player.games_played).toFixed(2) : "N/A"} reb</p>
           <p><strong>Asistencias por juego:</strong> ${player.games_played > 0 ? (player.assists / player.games_played).toFixed(2) : "N/A"} asis</p>
-          <button id="closeModal">Cerrar</button>
+          <button id="closeModal">X</button>
       `;
 
       modal.style.display = "block";
