@@ -1,22 +1,23 @@
 
-
 const players  =  [
     {
       "team_id": 1,
       "player_id": 101,
+      "team_name": "AME",
       "name": "John Thomas",
       "age": 19,
       "height": 167,
       "tournament": false,
       "image": "jugadores/0101.png",
-      "games_played": 1,
-      "points": 290,
+      "games_played": 3,
+      "points": 890,
       "rebounds": 71,
       "assists": 49
     },
     {
       "team_id": 1,
       "player_id": 102,
+      "team_name": "AME",
       "name": "Walter Esposito",
       "age": 20,
       "height": 196,
@@ -30,6 +31,7 @@ const players  =  [
     {
       "team_id": 1,
       "player_id": 3,
+      "team_name": "AME",
       "name": "Stockton",
       "age": 28,
       "height": 175,
@@ -43,6 +45,7 @@ const players  =  [
     {
       "team_id": 1,
       "player_id": 4,
+      "team_name": "AME",
       "name": "Jugador 1-4",
       "age": 31,
       "height": 171,
@@ -56,6 +59,7 @@ const players  =  [
     {
       "team_id": 1,
       "player_id": 5,
+      "team_name": "AME",
       "name": "Jugador 1-5",
       "age": 22,
       "height": 176,
@@ -69,6 +73,7 @@ const players  =  [
     {
       "team_id": 1,
       "player_id": 6,
+      "team_name": "AME",
       "name": "Jugador 1-6",
       "age": 26,
       "height": 189,
@@ -82,6 +87,7 @@ const players  =  [
     {
       "team_id": 1,
       "player_id": 7,
+      "team_name": "AME",
       "name": "Jugador 1-7",
       "age": 32,
       "height": 183,
@@ -95,6 +101,7 @@ const players  =  [
     {
       "team_id": 1,
       "player_id": 8,
+      "team_name": "AME",
       "name": "Jugador 1-8",
       "age": 27,
       "height": 166,
@@ -108,6 +115,7 @@ const players  =  [
     {
       "team_id": 1,
       "player_id": 9,
+      "team_name": "AME",
       "name": "Jugador 1-9",
       "age": 23,
       "height": 197,
@@ -121,6 +129,7 @@ const players  =  [
     {
       "team_id": 1,
       "player_id": 10,
+      "team_name": "AME",
       "name": "Jugador 1-10",
       "age": 19,
       "height": 180,
@@ -134,6 +143,7 @@ const players  =  [
     {
       "team_id": 1,
       "player_id": 11,
+      "team_name": "AME",
       "name": "Jugador 1-11",
       "age": 27,
       "height": 173,
@@ -147,6 +157,7 @@ const players  =  [
     {
       "team_id": 1,
       "player_id": 12,
+      "team_name": "AME",
       "name": "Jugador 1-12",
       "age": 27,
       "height": 184,
@@ -160,6 +171,7 @@ const players  =  [
     {
       "team_id": 1,
       "player_id": 13,
+      "team_name": "AME",
       "name": "Jugador 1-13",
       "age": 20,
       "height": 184,
@@ -173,6 +185,7 @@ const players  =  [
     {
       "team_id": 1,
       "player_id": 14,
+      "team_name": "AME",
       "name": "Jugador 1-14",
       "age": 19,
       "height": 175,
@@ -186,6 +199,7 @@ const players  =  [
     {
       "team_id": 1,
       "player_id": 15,
+      "team_name": "AME",
       "name": "Jugador 1-15",
       "age": 18,
       "height": 178,
@@ -199,6 +213,7 @@ const players  =  [
     {
       "team_id": 2,
       "player_id": 16,
+      "team_name": "ATA",
       "name": "Jugador 2-1",
       "age": 26,
       "height": 166,
@@ -212,6 +227,7 @@ const players  =  [
     {
       "team_id": 2,
       "player_id": 17,
+      "team_name": "ATA",
       "name": "Jugador 2-2",
       "age": 18,
       "height": 168,
@@ -225,6 +241,7 @@ const players  =  [
     {
       "team_id": 2,
       "player_id": 18,
+      "team_name": "ATA",
       "name": "Jugador 2-3",
       "age": 22,
       "height": 184,
@@ -238,6 +255,7 @@ const players  =  [
     {
       "team_id": 2,
       "player_id": 19,
+      "team_name": "ATA",
       "name": "Jugador 2-4",
       "age": 18,
       "height": 172,
@@ -251,6 +269,7 @@ const players  =  [
     {
       "team_id": 2,
       "player_id": 20,
+      "team_name": "ATA",
       "name": "Jugador 2-5",
       "age": 22,
       "height": 188,
@@ -264,6 +283,7 @@ const players  =  [
     {
       "team_id": 2,
       "player_id": 21,
+      "team_name": "ATA",
       "name": "Jugador 2-6",
       "age": 21,
       "height": 180,
@@ -277,6 +297,7 @@ const players  =  [
     {
       "team_id": 2,
       "player_id": 22,
+      "team_name": "ATA",
       "name": "Jugador 2-7",
       "age": 23,
       "height": 169,
@@ -290,6 +311,7 @@ const players  =  [
     {
       "team_id": 2,
       "player_id": 23,
+      "team_name": "ATA",
       "name": "Jugador 2-8",
       "age": 21,
       "height": 172,
@@ -303,6 +325,7 @@ const players  =  [
     {
       "team_id": 2,
       "player_id": 24,
+      "team_name": "ATA",
       "name": "Jugador 2-9",
       "age": 20,
       "height": 194,
@@ -316,6 +339,7 @@ const players  =  [
     {
       "team_id": 2,
       "player_id": 25,
+      "team_name": "ATA",
       "name": "Jugador 2-10",
       "age": 18,
       "height": 168,
@@ -329,6 +353,7 @@ const players  =  [
     {
       "team_id": 2,
       "player_id": 26,
+      "team_name": "ATA",
       "name": "Jugador 2-11",
       "age": 18,
       "height": 170,
@@ -342,6 +367,7 @@ const players  =  [
     {
       "team_id": 2,
       "player_id": 27,
+      "team_name": "ATA",
       "name": "Jugador 2-12",
       "age": 31,
       "height": 168,
@@ -355,6 +381,7 @@ const players  =  [
     {
       "team_id": 2,
       "player_id": 28,
+      "team_name": "ATA",
       "name": "Jugador 2-13",
       "age": 20,
       "height": 198,
@@ -368,6 +395,7 @@ const players  =  [
     {
       "team_id": 2,
       "player_id": 29,
+      "team_name": "ATA",
       "name": "Jugador 2-14",
       "age": 22,
       "height": 197,
@@ -381,6 +409,7 @@ const players  =  [
     {
       "team_id": 2,
       "player_id": 30,
+      "team_name": "ATA",
       "name": "Jugador 2-15",
       "age": 22,
       "height": 192,
@@ -394,6 +423,7 @@ const players  =  [
     {
       "team_id": 3,
       "player_id": 301,
+      "team_name": "ASP",
       "name": "Ricardo Torres",
       "age": 26,
       "height": 166,
@@ -407,6 +437,7 @@ const players  =  [
     {
       "team_id": 3,
       "player_id": 302,
+      "team_name": "ASP",
       "name": "Yael Uliambre",
       "age": 18,
       "height": 168,
@@ -420,6 +451,7 @@ const players  =  [
     {
       "team_id": 3,
       "player_id": 33,
+      "team_name": "ASP",
       "name": "Jugador 3-3",
       "age": 31,
       "height": 165,
@@ -433,6 +465,7 @@ const players  =  [
     {
       "team_id": 3,
       "player_id": 34,
+      "team_name": "ASP",
       "name": "Jugador 3-4",
       "age": 31,
       "height": 175,
@@ -446,6 +479,7 @@ const players  =  [
     {
       "team_id": 3,
       "player_id": 35,
+      "team_name": "ASP",
       "name": "Jugador 3-5",
       "age": 19,
       "height": 184,
@@ -459,6 +493,7 @@ const players  =  [
     {
       "team_id": 3,
       "player_id": 36,
+      "team_name": "ASP",
       "name": "Jugador 3-6",
       "age": 22,
       "height": 183,
@@ -472,6 +507,7 @@ const players  =  [
     {
       "team_id": 3,
       "player_id": 37,
+      "team_name": "ASP",
       "name": "Jugador 3-7",
       "age": 23,
       "height": 191,
@@ -485,6 +521,7 @@ const players  =  [
     {
       "team_id": 3,
       "player_id": 38,
+      "team_name": "ASP",
       "name": "Jugador 3-8",
       "age": 20,
       "height": 177,
@@ -498,6 +535,7 @@ const players  =  [
     {
       "team_id": 3,
       "player_id": 39,
+      "team_name": "ASP",
       "name": "Jugador 3-9",
       "age": 32,
       "height": 166,
@@ -511,6 +549,7 @@ const players  =  [
     {
       "team_id": 3,
       "player_id": 40,
+      "team_name": "ASP",
       "name": "Jugador 3-10",
       "age": 23,
       "height": 175,
@@ -524,6 +563,7 @@ const players  =  [
     {
       "team_id": 3,
       "player_id": 41,
+      "team_name": "ASP",
       "name": "Jugador 3-11",
       "age": 30,
       "height": 189,
@@ -537,6 +577,7 @@ const players  =  [
     {
       "team_id": 3,
       "player_id": 42,
+      "team_name": "ASP",
       "name": "Jugador 3-12",
       "age": 24,
       "height": 164,
@@ -550,6 +591,7 @@ const players  =  [
     {
       "team_id": 3,
       "player_id": 43,
+      "team_name": "ASP",
       "name": "Jugador 3-13",
       "age": 30,
       "height": 180,
@@ -563,6 +605,7 @@ const players  =  [
     {
       "team_id": 3,
       "player_id": 44,
+      "team_name": "ASP",
       "name": "Jugador 3-14",
       "age": 31,
       "height": 181,
@@ -576,6 +619,7 @@ const players  =  [
     {
       "team_id": 3,
       "player_id": 45,
+      "team_name": "ASP",
       "name": "Jugador 3-15",
       "age": 21,
       "height": 166,
@@ -589,6 +633,7 @@ const players  =  [
     {
       "team_id": 4,
       "player_id": 46,
+      "team_name": "CAOVA",
       "name": "Jugador 4-1",
       "age": 24,
       "height": 185,
@@ -602,6 +647,7 @@ const players  =  [
     {
       "team_id": 4,
       "player_id": 47,
+      "team_name": "CAOVA",
       "name": "Jugador 4-2",
       "age": 24,
       "height": 197,
@@ -615,6 +661,7 @@ const players  =  [
     {
       "team_id": 4,
       "player_id": 48,
+      "team_name": "CAOVA",
       "name": "Jugador 4-3",
       "age": 20,
       "height": 184,
@@ -628,6 +675,7 @@ const players  =  [
     {
       "team_id": 4,
       "player_id": 49,
+      "team_name": "CAOVA",
       "name": "Jugador 4-4",
       "age": 18,
       "height": 192,
@@ -641,6 +689,7 @@ const players  =  [
     {
       "team_id": 4,
       "player_id": 50,
+      "team_name": "CAOVA",
       "name": "Jugador 4-5",
       "age": 19,
       "height": 191,
@@ -654,6 +703,7 @@ const players  =  [
     {
       "team_id": 4,
       "player_id": 51,
+      "team_name": "CAOVA",
       "name": "Jugador 4-6",
       "age": 31,
       "height": 163,
@@ -667,6 +717,7 @@ const players  =  [
     {
       "team_id": 4,
       "player_id": 52,
+      "team_name": "CAOVA",
       "name": "Jugador 4-7",
       "age": 20,
       "height": 167,
@@ -680,6 +731,7 @@ const players  =  [
     {
       "team_id": 4,
       "player_id": 53,
+      "team_name": "CAOVA",
       "name": "Jugador 4-8",
       "age": 30,
       "height": 175,
@@ -693,6 +745,7 @@ const players  =  [
     {
       "team_id": 4,
       "player_id": 54,
+      "team_name": "CAOVA",
       "name": "Jugador 4-9",
       "age": 23,
       "height": 183,
@@ -706,6 +759,7 @@ const players  =  [
     {
       "team_id": 4,
       "player_id": 55,
+      "team_name": "CAOVA",
       "name": "Jugador 4-10",
       "age": 26,
       "height": 183,
@@ -719,6 +773,7 @@ const players  =  [
     {
       "team_id": 4,
       "player_id": 56,
+      "team_name": "CAOVA",
       "name": "Jugador 4-11",
       "age": 22,
       "height": 169,
@@ -732,6 +787,7 @@ const players  =  [
     {
       "team_id": 4,
       "player_id": 57,
+      "team_name": "CAOVA",
       "name": "Jugador 4-12",
       "age": 28,
       "height": 191,
@@ -745,6 +801,7 @@ const players  =  [
     {
       "team_id": 4,
       "player_id": 58,
+      "team_name": "CAOVA",
       "name": "Jugador 4-13",
       "age": 26,
       "height": 186,
@@ -758,6 +815,7 @@ const players  =  [
     {
       "team_id": 4,
       "player_id": 59,
+      "team_name": "CAOVA",
       "name": "Jugador 4-14",
       "age": 30,
       "height": 173,
@@ -771,6 +829,7 @@ const players  =  [
     {
       "team_id": 4,
       "player_id": 60,
+      "team_name": "CAOVA",
       "name": "Jugador 4-15",
       "age": 32,
       "height": 166,
@@ -784,6 +843,7 @@ const players  =  [
     {
       "team_id": 5,
       "player_id": 61,
+      "team_name": "CEN",
       "name": "Jugador 5-1",
       "age": 28,
       "height": 167,
@@ -797,6 +857,7 @@ const players  =  [
     {
       "team_id": 5,
       "player_id": 62,
+      "team_name": "CEN",
       "name": "Jugador 5-2",
       "age": 28,
       "height": 191,
@@ -810,6 +871,7 @@ const players  =  [
     {
       "team_id": 5,
       "player_id": 63,
+      "team_name": "CEN",
       "name": "Jugador 5-3",
       "age": 32,
       "height": 176,
@@ -823,6 +885,7 @@ const players  =  [
     {
       "team_id": 5,
       "player_id": 64,
+      "team_name": "CEN",
       "name": "Jugador 5-4",
       "age": 26,
       "height": 192,
@@ -836,6 +899,7 @@ const players  =  [
     {
       "team_id": 5,
       "player_id": 65,
+      "team_name": "CEN",
       "name": "Jugador 5-5",
       "age": 27,
       "height": 195,
@@ -849,6 +913,7 @@ const players  =  [
     {
       "team_id": 5,
       "player_id": 66,
+      "team_name": "CEN",
       "name": "Jugador 5-6",
       "age": 32,
       "height": 170,
@@ -862,6 +927,7 @@ const players  =  [
     {
       "team_id": 5,
       "player_id": 67,
+      "team_name": "CEN",
       "name": "Jugador 5-7",
       "age": 19,
       "height": 162,
@@ -875,6 +941,7 @@ const players  =  [
     {
       "team_id": 5,
       "player_id": 68,
+      "team_name": "CEN",
       "name": "Jugador 5-8",
       "age": 27,
       "height": 182,
@@ -888,6 +955,7 @@ const players  =  [
     {
       "team_id": 5,
       "player_id": 69,
+      "team_name": "CEN",
       "name": "Jugador 5-9",
       "age": 18,
       "height": 170,
@@ -901,6 +969,7 @@ const players  =  [
     {
       "team_id": 5,
       "player_id": 70,
+      "team_name": "CEN",
       "name": "Jugador 5-10",
       "age": 28,
       "height": 165,
@@ -914,6 +983,7 @@ const players  =  [
     {
       "team_id": 5,
       "player_id": 71,
+      "team_name": "CEN",
       "name": "Jugador 5-11",
       "age": 25,
       "height": 197,
@@ -927,6 +997,7 @@ const players  =  [
     {
       "team_id": 5,
       "player_id": 72,
+      "team_name": "CEN",
       "name": "Jugador 5-12",
       "age": 20,
       "height": 169,
@@ -940,6 +1011,7 @@ const players  =  [
     {
       "team_id": 5,
       "player_id": 73,
+      "team_name": "CEN",
       "name": "Jugador 5-13",
       "age": 21,
       "height": 186,
@@ -953,6 +1025,7 @@ const players  =  [
     {
       "team_id": 5,
       "player_id": 74,
+      "team_name": "CEN",
       "name": "Jugador 5-14",
       "age": 27,
       "height": 191,
@@ -966,6 +1039,7 @@ const players  =  [
     {
       "team_id": 5,
       "player_id": 75,
+      "team_name": "CEN",
       "name": "Jugador 5-15",
       "age": 25,
       "height": 167,
@@ -979,6 +1053,7 @@ const players  =  [
     {
       "team_id": 6,
       "player_id": 76,
+      "team_name": "ECHE",
       "name": "Jugador 6-1",
       "age": 23,
       "height": 197,
@@ -992,6 +1067,7 @@ const players  =  [
     {
       "team_id": 6,
       "player_id": 77,
+      "team_name": "ECHE",
       "name": "Jugador 6-2",
       "age": 26,
       "height": 162,
@@ -1005,6 +1081,7 @@ const players  =  [
     {
       "team_id": 6,
       "player_id": 78,
+      "team_name": "ECHE",
       "name": "Jugador 6-3",
       "age": 29,
       "height": 176,
@@ -1018,6 +1095,7 @@ const players  =  [
     {
       "team_id": 6,
       "player_id": 79,
+      "team_name": "ECHE",
       "name": "Jugador 6-4",
       "age": 24,
       "height": 197,
@@ -1031,6 +1109,7 @@ const players  =  [
     {
       "team_id": 6,
       "player_id": 80,
+      "team_name": "ECHE",
       "name": "Jugador 6-5",
       "age": 28,
       "height": 197,
@@ -1044,6 +1123,7 @@ const players  =  [
     {
       "team_id": 6,
       "player_id": 81,
+      "team_name": "ECHE",
       "name": "Jugador 6-6",
       "age": 19,
       "height": 164,
@@ -1057,6 +1137,7 @@ const players  =  [
     {
       "team_id": 6,
       "player_id": 82,
+      "team_name": "ECHE",
       "name": "Jugador 6-7",
       "age": 26,
       "height": 181,
@@ -1070,6 +1151,7 @@ const players  =  [
     {
       "team_id": 6,
       "player_id": 83,
+      "team_name": "ECHE",
       "name": "Jugador 6-8",
       "age": 32,
       "height": 195,
@@ -1083,6 +1165,7 @@ const players  =  [
     {
       "team_id": 6,
       "player_id": 84,
+      "team_name": "ECHE",
       "name": "Jugador 6-9",
       "age": 22,
       "height": 188,
@@ -1096,6 +1179,7 @@ const players  =  [
     {
       "team_id": 6,
       "player_id": 85,
+      "team_name": "ECHE",
       "name": "Jugador 6-10",
       "age": 29,
       "height": 184,
@@ -1109,6 +1193,7 @@ const players  =  [
     {
       "team_id": 6,
       "player_id": 86,
+      "team_name": "ECHE",
       "name": "Jugador 6-11",
       "age": 27,
       "height": 175,
@@ -1122,6 +1207,7 @@ const players  =  [
     {
       "team_id": 6,
       "player_id": 87,
+      "team_name": "ECHE",
       "name": "Jugador 6-12",
       "age": 27,
       "height": 191,
@@ -1135,6 +1221,7 @@ const players  =  [
     {
       "team_id": 6,
       "player_id": 88,
+      "team_name": "ECHE",
       "name": "Jugador 6-13",
       "age": 19,
       "height": 162,
@@ -1148,6 +1235,7 @@ const players  =  [
     {
       "team_id": 6,
       "player_id": 89,
+      "team_name": "ECHE",
       "name": "Jugador 6-14",
       "age": 28,
       "height": 181,
@@ -1161,6 +1249,7 @@ const players  =  [
     {
       "team_id": 6,
       "player_id": 90,
+      "team_name": "ECHE",
       "name": "Jugador 6-15",
       "age": 24,
       "height": 164,
@@ -1174,6 +1263,7 @@ const players  =  [
     {
       "team_id": 7,
       "player_id": 91,
+      "team_name": "ETC",
       "name": "Jugador 7-1",
       "age": 27,
       "height": 196,
@@ -1187,6 +1277,7 @@ const players  =  [
     {
       "team_id": 7,
       "player_id": 92,
+      "team_name": "ETC",
       "name": "Jugador 7-2",
       "age": 18,
       "height": 199,
@@ -1200,6 +1291,7 @@ const players  =  [
     {
       "team_id": 7,
       "player_id": 93,
+      "team_name": "ETC",
       "name": "Jugador 7-3",
       "age": 24,
       "height": 161,
@@ -1213,6 +1305,7 @@ const players  =  [
     {
       "team_id": 7,
       "player_id": 94,
+      "team_name": "ETC",
       "name": "Jugador 7-4",
       "age": 32,
       "height": 165,
@@ -1226,6 +1319,7 @@ const players  =  [
     {
       "team_id": 7,
       "player_id": 95,
+      "team_name": "ETC",
       "name": "Jugador 7-5",
       "age": 22,
       "height": 181,
@@ -1239,6 +1333,7 @@ const players  =  [
     {
       "team_id": 7,
       "player_id": 96,
+      "team_name": "ETC",
       "name": "Jugador 7-6",
       "age": 27,
       "height": 161,
@@ -1252,6 +1347,7 @@ const players  =  [
     {
       "team_id": 7,
       "player_id": 97,
+      "team_name": "ETC",
       "name": "Jugador 7-7",
       "age": 28,
       "height": 189,
@@ -1265,6 +1361,7 @@ const players  =  [
     {
       "team_id": 7,
       "player_id": 98,
+      "team_name": "ETC",
       "name": "Jugador 7-8",
       "age": 28,
       "height": 198,
@@ -1278,6 +1375,7 @@ const players  =  [
     {
       "team_id": 7,
       "player_id": 99,
+      "team_name": "ETC",
       "name": "Jugador 7-9",
       "age": 18,
       "height": 187,
@@ -1291,6 +1389,7 @@ const players  =  [
     {
       "team_id": 7,
       "player_id": 100,
+      "team_name": "ETC",
       "name": "Jugador 7-10",
       "age": 30,
       "height": 178,
@@ -1304,6 +1403,7 @@ const players  =  [
     {
       "team_id": 7,
       "player_id": 101,
+      "team_name": "ETC",
       "name": "Jugador 7-11",
       "age": 25,
       "height": 189,
@@ -1317,6 +1417,7 @@ const players  =  [
     {
       "team_id": 7,
       "player_id": 102,
+      "team_name": "ETC",
       "name": "Jugador 7-12",
       "age": 26,
       "height": 177,
@@ -1330,6 +1431,7 @@ const players  =  [
     {
       "team_id": 7,
       "player_id": 103,
+      "team_name": "ETC",
       "name": "Jugador 7-13",
       "age": 27,
       "height": 175,
@@ -1343,6 +1445,7 @@ const players  =  [
     {
       "team_id": 7,
       "player_id": 104,
+      "team_name": "ETC",
       "name": "Jugador 7-14",
       "age": 28,
       "height": 161,
@@ -1356,6 +1459,7 @@ const players  =  [
     {
       "team_id": 7,
       "player_id": 105,
+      "team_name": "ETC",
       "name": "Jugador 7-15",
       "age": 23,
       "height": 170,
@@ -1369,6 +1473,7 @@ const players  =  [
     {
       "team_id": 8,
       "player_id": 106,
+      "team_name": "FISH",
       "name": "Jugador 8-1",
       "age": 32,
       "height": 183,
@@ -1382,6 +1487,7 @@ const players  =  [
     {
       "team_id": 8,
       "player_id": 107,
+      "team_name": "FISH",
       "name": "Jugador 8-2",
       "age": 20,
       "height": 180,
@@ -1395,6 +1501,7 @@ const players  =  [
     {
       "team_id": 8,
       "player_id": 108,
+      "team_name": "FISH",
       "name": "Jugador 8-3",
       "age": 28,
       "height": 179,
@@ -1408,6 +1515,7 @@ const players  =  [
     {
       "team_id": 8,
       "player_id": 109,
+      "team_name": "FISH",
       "name": "Jugador 8-4",
       "age": 20,
       "height": 162,
@@ -1421,6 +1529,7 @@ const players  =  [
     {
       "team_id": 8,
       "player_id": 110,
+      "team_name": "FISH",
       "name": "Jugador 8-5",
       "age": 21,
       "height": 189,
@@ -1434,6 +1543,7 @@ const players  =  [
     {
       "team_id": 8,
       "player_id": 111,
+      "team_name": "FISH",
       "name": "Jugador 8-6",
       "age": 25,
       "height": 174,
@@ -1447,6 +1557,7 @@ const players  =  [
     {
       "team_id": 8,
       "player_id": 112,
+      "team_name": "FISH",
       "name": "Jugador 8-7",
       "age": 25,
       "height": 187,
@@ -1460,6 +1571,7 @@ const players  =  [
     {
       "team_id": 8,
       "player_id": 113,
+      "team_name": "FISH",
       "name": "Jugador 8-8",
       "age": 25,
       "height": 197,
@@ -1473,6 +1585,7 @@ const players  =  [
     {
       "team_id": 8,
       "player_id": 114,
+      "team_name": "FISH",
       "name": "Jugador 8-9",
       "age": 25,
       "height": 180,
@@ -1486,6 +1599,7 @@ const players  =  [
     {
       "team_id": 8,
       "player_id": 115,
+      "team_name": "FISH",
       "name": "Jugador 8-10",
       "age": 29,
       "height": 182,
@@ -1499,6 +1613,7 @@ const players  =  [
     {
       "team_id": 8,
       "player_id": 116,
+      "team_name": "FISH",
       "name": "Jugador 8-11",
       "age": 29,
       "height": 193,
@@ -1512,6 +1627,7 @@ const players  =  [
     {
       "team_id": 8,
       "player_id": 117,
+      "team_name": "FISH",
       "name": "Jugador 8-12",
       "age": 21,
       "height": 192,
@@ -1525,6 +1641,7 @@ const players  =  [
     {
       "team_id": 8,
       "player_id": 118,
+      "team_name": "FISH",
       "name": "Jugador 8-13",
       "age": 18,
       "height": 176,
@@ -1538,6 +1655,7 @@ const players  =  [
     {
       "team_id": 8,
       "player_id": 119,
+      "team_name": "FISH",
       "name": "Jugador 8-14",
       "age": 25,
       "height": 188,
@@ -1551,6 +1669,7 @@ const players  =  [
     {
       "team_id": 8,
       "player_id": 120,
+      "team_name": "FISH",
       "name": "Jugador 8-15",
       "age": 24,
       "height": 185,
@@ -1564,6 +1683,7 @@ const players  =  [
     {
       "team_id": 9,
       "player_id": 121,
+      "team_name": "GER",
       "name": "Jugador 9-1",
       "age": 27,
       "height": 177,
@@ -1577,6 +1697,7 @@ const players  =  [
     {
       "team_id": 9,
       "player_id": 122,
+      "team_name": "GER",
       "name": "Jugador 9-2",
       "age": 29,
       "height": 179,
@@ -1590,6 +1711,7 @@ const players  =  [
     {
       "team_id": 9,
       "player_id": 123,
+      "team_name": "GER",
       "name": "Jugador 9-3",
       "age": 26,
       "height": 198,
@@ -1603,6 +1725,7 @@ const players  =  [
     {
       "team_id": 9,
       "player_id": 124,
+      "team_name": "GER",
       "name": "Jugador 9-4",
       "age": 27,
       "height": 179,
@@ -1616,6 +1739,7 @@ const players  =  [
     {
       "team_id": 9,
       "player_id": 125,
+      "team_name": "GER",
       "name": "Jugador 9-5",
       "age": 27,
       "height": 173,
@@ -1629,6 +1753,7 @@ const players  =  [
     {
       "team_id": 9,
       "player_id": 126,
+      "team_name": "GER",
       "name": "Jugador 9-6",
       "age": 32,
       "height": 176,
@@ -1642,6 +1767,7 @@ const players  =  [
     {
       "team_id": 9,
       "player_id": 127,
+      "team_name": "GER",
       "name": "Jugador 9-7",
       "age": 20,
       "height": 181,
@@ -1655,6 +1781,7 @@ const players  =  [
     {
       "team_id": 9,
       "player_id": 128,
+      "team_name": "GER",
       "name": "Jugador 9-8",
       "age": 29,
       "height": 195,
@@ -1668,6 +1795,7 @@ const players  =  [
     {
       "team_id": 9,
       "player_id": 129,
+      "team_name": "GER",
       "name": "Jugador 9-9",
       "age": 30,
       "height": 188,
@@ -1681,6 +1809,7 @@ const players  =  [
     {
       "team_id": 9,
       "player_id": 130,
+      "team_name": "GER",
       "name": "Jugador 9-10",
       "age": 30,
       "height": 175,
@@ -1694,6 +1823,7 @@ const players  =  [
     {
       "team_id": 9,
       "player_id": 131,
+      "team_name": "GER",
       "name": "Jugador 9-11",
       "age": 28,
       "height": 179,
@@ -1707,6 +1837,7 @@ const players  =  [
     {
       "team_id": 9,
       "player_id": 132,
+      "team_name": "GER",
       "name": "Jugador 9-12",
       "age": 21,
       "height": 187,
@@ -1720,6 +1851,7 @@ const players  =  [
     {
       "team_id": 9,
       "player_id": 133,
+      "team_name": "GER",
       "name": "Jugador 9-13",
       "age": 25,
       "height": 184,
@@ -1733,6 +1865,7 @@ const players  =  [
     {
       "team_id": 9,
       "player_id": 134,
+      "team_name": "GER",
       "name": "Jugador 9-14",
       "age": 19,
       "height": 165,
@@ -1746,6 +1879,7 @@ const players  =  [
     {
       "team_id": 9,
       "player_id": 135,
+      "team_name": "GER",
       "name": "Jugador 9-15",
       "age": 26,
       "height": 199,
@@ -1759,6 +1893,7 @@ const players  =  [
     {
       "team_id": 10,
       "player_id": 136,
+      "team_name": "CNSA",
       "name": "Jugador 10-1",
       "age": 20,
       "height": 162,
@@ -1772,6 +1907,7 @@ const players  =  [
     {
       "team_id": 10,
       "player_id": 137,
+      "team_name": "CNSA",
       "name": "Jugador 10-2",
       "age": 27,
       "height": 172,
@@ -1785,6 +1921,7 @@ const players  =  [
     {
       "team_id": 10,
       "player_id": 138,
+      "team_name": "CNSA",
       "name": "Jugador 10-3",
       "age": 25,
       "height": 178,
@@ -1798,6 +1935,7 @@ const players  =  [
     {
       "team_id": 10,
       "player_id": 139,
+      "team_name": "CNSA",
       "name": "Jugador 10-4",
       "age": 28,
       "height": 183,
@@ -1811,6 +1949,7 @@ const players  =  [
     {
       "team_id": 10,
       "player_id": 140,
+      "team_name": "CNSA",
       "name": "Jugador 10-5",
       "age": 31,
       "height": 187,
@@ -1824,6 +1963,7 @@ const players  =  [
     {
       "team_id": 10,
       "player_id": 141,
+      "team_name": "CNSA",
       "name": "Jugador 10-6",
       "age": 30,
       "height": 183,
@@ -1837,6 +1977,7 @@ const players  =  [
     {
       "team_id": 10,
       "player_id": 142,
+      "team_name": "CNSA",
       "name": "Jugador 10-7",
       "age": 22,
       "height": 184,
@@ -1850,6 +1991,7 @@ const players  =  [
     {
       "team_id": 10,
       "player_id": 143,
+      "team_name": "CNSA",
       "name": "Jugador 10-8",
       "age": 28,
       "height": 184,
@@ -1863,6 +2005,7 @@ const players  =  [
     {
       "team_id": 10,
       "player_id": 144,
+      "team_name": "CNSA",
       "name": "Jugador 10-9",
       "age": 27,
       "height": 172,
@@ -1876,6 +2019,7 @@ const players  =  [
     {
       "team_id": 10,
       "player_id": 145,
+      "team_name": "CNSA",
       "name": "Jugador 10-10",
       "age": 25,
       "height": 162,
@@ -1889,6 +2033,7 @@ const players  =  [
     {
       "team_id": 10,
       "player_id": 146,
+      "team_name": "CNSA",
       "name": "Jugador 10-11",
       "age": 27,
       "height": 162,
@@ -1902,6 +2047,7 @@ const players  =  [
     {
       "team_id": 10,
       "player_id": 147,
+      "team_name": "CNSA",
       "name": "Jugador 10-12",
       "age": 19,
       "height": 186,
@@ -1915,6 +2061,7 @@ const players  =  [
     {
       "team_id": 10,
       "player_id": 148,
+      "team_name": "CNSA",
       "name": "Jugador 10-13",
       "age": 26,
       "height": 190,
@@ -1928,6 +2075,7 @@ const players  =  [
     {
       "team_id": 10,
       "player_id": 149,
+      "team_name": "CNSA",
       "name": "Jugador 10-14",
       "age": 32,
       "height": 189,
@@ -1941,6 +2089,7 @@ const players  =  [
     {
       "team_id": 10,
       "player_id": 150,
+      "team_name": "CNSA",
       "name": "Jugador 10-15",
       "age": 31,
       "height": 175,
@@ -1954,6 +2103,7 @@ const players  =  [
     {
       "team_id": 11,
       "player_id": 151,
+      "team_name": "UYP",
       "name": "Jugador 11-1",
       "age": 27,
       "height": 167,
@@ -1967,6 +2117,7 @@ const players  =  [
     {
       "team_id": 11,
       "player_id": 152,
+      "team_name": "UYP",
       "name": "Jugador 11-2",
       "age": 18,
       "height": 169,
@@ -1980,6 +2131,7 @@ const players  =  [
     {
       "team_id": 11,
       "player_id": 153,
+      "team_name": "UYP",
       "name": "Jugador 11-3",
       "age": 24,
       "height": 164,
@@ -1993,6 +2145,7 @@ const players  =  [
     {
       "team_id": 11,
       "player_id": 154,
+      "team_name": "UYP",
       "name": "Jugador 11-4",
       "age": 30,
       "height": 189,
@@ -2006,6 +2159,7 @@ const players  =  [
     {
       "team_id": 11,
       "player_id": 155,
+      "team_name": "UYP",
       "name": "Jugador 11-5",
       "age": 24,
       "height": 198,
@@ -2019,6 +2173,7 @@ const players  =  [
     {
       "team_id": 11,
       "player_id": 156,
+      "team_name": "UYP",
       "name": "Jugador 11-6",
       "age": 18,
       "height": 198,
@@ -2032,6 +2187,7 @@ const players  =  [
     {
       "team_id": 11,
       "player_id": 157,
+      "team_name": "UYP",
       "name": "Jugador 11-7",
       "age": 30,
       "height": 166,
@@ -2045,6 +2201,7 @@ const players  =  [
     {
       "team_id": 11,
       "player_id": 158,
+      "team_name": "UYP",
       "name": "Jugador 11-8",
       "age": 30,
       "height": 197,
@@ -2058,6 +2215,7 @@ const players  =  [
     {
       "team_id": 11,
       "player_id": 159,
+      "team_name": "UYP",
       "name": "Jugador 11-9",
       "age": 31,
       "height": 182,
@@ -2071,6 +2229,7 @@ const players  =  [
     {
       "team_id": 11,
       "player_id": 160,
+      "team_name": "UYP",
       "name": "Jugador 11-10",
       "age": 18,
       "height": 194,
@@ -2084,6 +2243,7 @@ const players  =  [
     {
       "team_id": 11,
       "player_id": 161,
+      "team_name": "UYP",
       "name": "Jugador 11-11",
       "age": 23,
       "height": 191,
@@ -2097,6 +2257,7 @@ const players  =  [
     {
       "team_id": 11,
       "player_id": 162,
+      "team_name": "UYP",
       "name": "Jugador 11-12",
       "age": 31,
       "height": 194,
@@ -2110,6 +2271,7 @@ const players  =  [
     {
       "team_id": 11,
       "player_id": 163,
+      "team_name": "UYP",
       "name": "Jugador 11-13",
       "age": 21,
       "height": 172,
@@ -2123,6 +2285,7 @@ const players  =  [
     {
       "team_id": 11,
       "player_id": 164,
+      "team_name": "UYP",
       "name": "Jugador 11-14",
       "age": 18,
       "height": 198,
@@ -2136,6 +2299,7 @@ const players  =  [
     {
       "team_id": 11,
       "player_id": 165,
+      "team_name": "UYP",
       "name": "Jugador 11-15",
       "age": 25,
       "height": 168,
@@ -2149,6 +2313,7 @@ const players  =  [
     {
       "team_id": 12,
       "player_id": 166,
+      "team_name": "CAP",
       "name": "Jugador 12-1",
       "age": 32,
       "height": 193,
@@ -2162,6 +2327,7 @@ const players  =  [
     {
       "team_id": 12,
       "player_id": 167,
+      "team_name": "CAP",
       "name": "Jugador 12-2",
       "age": 27,
       "height": 192,
@@ -2175,6 +2341,7 @@ const players  =  [
     {
       "team_id": 12,
       "player_id": 168,
+      "team_name": "CAP",
       "name": "Jugador 12-3",
       "age": 21,
       "height": 173,
@@ -2188,6 +2355,7 @@ const players  =  [
     {
       "team_id": 12,
       "player_id": 169,
+      "team_name": "CAP",
       "name": "Jugador 12-4",
       "age": 30,
       "height": 194,
@@ -2201,6 +2369,7 @@ const players  =  [
     {
       "team_id": 12,
       "player_id": 170,
+      "team_name": "CAP",
       "name": "Jugador 12-5",
       "age": 31,
       "height": 174,
@@ -2214,6 +2383,7 @@ const players  =  [
     {
       "team_id": 12,
       "player_id": 171,
+      "team_name": "CAP",
       "name": "Jugador 12-6",
       "age": 20,
       "height": 170,
@@ -2227,6 +2397,7 @@ const players  =  [
     {
       "team_id": 12,
       "player_id": 172,
+      "team_name": "CAP",
       "name": "Jugador 12-7",
       "age": 24,
       "height": 198,
@@ -2240,6 +2411,7 @@ const players  =  [
     {
       "team_id": 12,
       "player_id": 173,
+      "team_name": "CAP",
       "name": "Jugador 12-8",
       "age": 24,
       "height": 197,
@@ -2253,6 +2425,7 @@ const players  =  [
     {
       "team_id": 12,
       "player_id": 174,
+      "team_name": "CAP",
       "name": "Jugador 12-9",
       "age": 24,
       "height": 178,
@@ -2266,6 +2439,7 @@ const players  =  [
     {
       "team_id": 12,
       "player_id": 175,
+      "team_name": "CAP",
       "name": "Jugador 12-10",
       "age": 25,
       "height": 180,
@@ -2279,6 +2453,7 @@ const players  =  [
     {
       "team_id": 12,
       "player_id": 176,
+      "team_name": "CAP",
       "name": "Jugador 12-11",
       "age": 32,
       "height": 160,
@@ -2292,6 +2467,7 @@ const players  =  [
     {
       "team_id": 12,
       "player_id": 177,
+      "team_name": "CAP",
       "name": "Jugador 12-12",
       "age": 18,
       "height": 187,
@@ -2305,6 +2481,7 @@ const players  =  [
     {
       "team_id": 12,
       "player_id": 178,
+      "team_name": "CAP",
       "name": "Jugador 12-13",
       "age": 23,
       "height": 174,
@@ -2318,6 +2495,7 @@ const players  =  [
     {
       "team_id": 12,
       "player_id": 179,
+      "team_name": "CAP",
       "name": "Jugador 12-14",
       "age": 31,
       "height": 197,
@@ -2331,6 +2509,7 @@ const players  =  [
     {
       "team_id": 12,
       "player_id": 180,
+      "team_name": "CAP",
       "name": "Jugador 12-15",
       "age": 23,
       "height": 184,
@@ -2344,6 +2523,7 @@ const players  =  [
     {
       "team_id": 13,
       "player_id": 181,
+      "team_name": "REG",
       "name": "Jugador 13-1",
       "age": 18,
       "height": 196,
@@ -2357,6 +2537,7 @@ const players  =  [
     {
       "team_id": 13,
       "player_id": 182,
+      "team_name": "REG",
       "name": "Jugador 13-2",
       "age": 18,
       "height": 191,
@@ -2370,6 +2551,7 @@ const players  =  [
     {
       "team_id": 13,
       "player_id": 183,
+      "team_name": "REG",
       "name": "Jugador 13-3",
       "age": 22,
       "height": 160,
@@ -2383,6 +2565,7 @@ const players  =  [
     {
       "team_id": 13,
       "player_id": 184,
+      "team_name": "REG",
       "name": "Jugador 13-4",
       "age": 21,
       "height": 175,
@@ -2396,6 +2579,7 @@ const players  =  [
     {
       "team_id": 13,
       "player_id": 185,
+      "team_name": "REG",
       "name": "Jugador 13-5",
       "age": 22,
       "height": 189,
@@ -2409,6 +2593,7 @@ const players  =  [
     {
       "team_id": 13,
       "player_id": 186,
+      "team_name": "REG",
       "name": "Jugador 13-6",
       "age": 25,
       "height": 176,
@@ -2422,6 +2607,7 @@ const players  =  [
     {
       "team_id": 13,
       "player_id": 187,
+      "team_name": "REG",
       "name": "Jugador 13-7",
       "age": 27,
       "height": 197,
@@ -2435,6 +2621,7 @@ const players  =  [
     {
       "team_id": 13,
       "player_id": 188,
+      "team_name": "REG",
       "name": "Jugador 13-8",
       "age": 18,
       "height": 173,
@@ -2448,6 +2635,7 @@ const players  =  [
     {
       "team_id": 13,
       "player_id": 189,
+      "team_name": "REG",
       "name": "Jugador 13-9",
       "age": 22,
       "height": 184,
@@ -2461,6 +2649,7 @@ const players  =  [
     {
       "team_id": 13,
       "player_id": 190,
+      "team_name": "REG",
       "name": "Jugador 13-10",
       "age": 31,
       "height": 190,
@@ -2474,6 +2663,7 @@ const players  =  [
     {
       "team_id": 13,
       "player_id": 191,
+      "team_name": "REG",
       "name": "Jugador 13-11",
       "age": 27,
       "height": 177,
@@ -2487,6 +2677,7 @@ const players  =  [
     {
       "team_id": 13,
       "player_id": 192,
+      "team_name": "REG",
       "name": "Jugador 13-12",
       "age": 26,
       "height": 176,
@@ -2500,6 +2691,7 @@ const players  =  [
     {
       "team_id": 13,
       "player_id": 193,
+      "team_name": "REG",
       "name": "Jugador 13-13",
       "age": 27,
       "height": 176,
@@ -2513,6 +2705,7 @@ const players  =  [
     {
       "team_id": 13,
       "player_id": 194,
+      "team_name": "REG",
       "name": "Jugador 13-14",
       "age": 28,
       "height": 198,
@@ -2526,6 +2719,7 @@ const players  =  [
     {
       "team_id": 13,
       "player_id": 195,
+      "team_name": "REG",
       "name": "Jugador 13-15",
       "age": 32,
       "height": 164,
@@ -2539,6 +2733,7 @@ const players  =  [
     {
       "team_id": 14,
       "player_id": 196,
+      "team_name": "SPU",
       "name": "Jugador 14-1",
       "age": 26,
       "height": 193,
@@ -2552,6 +2747,7 @@ const players  =  [
     {
       "team_id": 14,
       "player_id": 197,
+      "team_name": "SPU",
       "name": "Jugador 14-2",
       "age": 23,
       "height": 169,
@@ -2565,6 +2761,7 @@ const players  =  [
     {
       "team_id": 14,
       "player_id": 198,
+      "team_name": "SPU",
       "name": "Jugador 14-3",
       "age": 18,
       "height": 185,
@@ -2578,6 +2775,7 @@ const players  =  [
     {
       "team_id": 14,
       "player_id": 199,
+      "team_name": "SPU",
       "name": "Jugador 14-4",
       "age": 32,
       "height": 177,
@@ -2591,6 +2789,7 @@ const players  =  [
     {
       "team_id": 14,
       "player_id": 200,
+      "team_name": "SPU",
       "name": "Jugador 14-5",
       "age": 20,
       "height": 165,
@@ -2604,6 +2803,7 @@ const players  =  [
     {
       "team_id": 14,
       "player_id": 201,
+      "team_name": "SPU",
       "name": "Jugador 14-6",
       "age": 29,
       "height": 188,
@@ -2617,6 +2817,7 @@ const players  =  [
     {
       "team_id": 14,
       "player_id": 202,
+      "team_name": "SPU",
       "name": "Jugador 14-7",
       "age": 26,
       "height": 170,
@@ -2630,6 +2831,7 @@ const players  =  [
     {
       "team_id": 14,
       "player_id": 203,
+      "team_name": "SPU",
       "name": "Jugador 14-8",
       "age": 26,
       "height": 163,
@@ -2643,6 +2845,7 @@ const players  =  [
     {
       "team_id": 14,
       "player_id": 204,
+      "team_name": "SPU",
       "name": "Jugador 14-9",
       "age": 24,
       "height": 172,
@@ -2656,6 +2859,7 @@ const players  =  [
     {
       "team_id": 14,
       "player_id": 205,
+      "team_name": "SPU",
       "name": "Jugador 14-10",
       "age": 22,
       "height": 169,
@@ -2669,6 +2873,7 @@ const players  =  [
     {
       "team_id": 14,
       "player_id": 206,
+      "team_name": "SPU",
       "name": "Jugador 14-11",
       "age": 27,
       "height": 175,
@@ -2682,6 +2887,7 @@ const players  =  [
     {
       "team_id": 14,
       "player_id": 207,
+      "team_name": "SPU",
       "name": "Jugador 14-12",
       "age": 29,
       "height": 198,
@@ -2695,6 +2901,7 @@ const players  =  [
     {
       "team_id": 14,
       "player_id": 208,
+      "team_name": "SPU",
       "name": "Jugador 14-13",
       "age": 27,
       "height": 175,
@@ -2708,6 +2915,7 @@ const players  =  [
     {
       "team_id": 14,
       "player_id": 209,
+      "team_name": "SPU",
       "name": "Jugador 14-14",
       "age": 19,
       "height": 182,
@@ -2721,6 +2929,7 @@ const players  =  [
     {
       "team_id": 14,
       "player_id": 210,
+      "team_name": "SPU",
       "name": "Jugador 14-15",
       "age": 24,
       "height": 180,
@@ -2734,6 +2943,7 @@ const players  =  [
     {
       "team_id": 15,
       "player_id": 211,
+      "team_name": "TEMP",
       "name": "Jugador 15-1",
       "age": 18,
       "height": 181,
@@ -2747,6 +2957,7 @@ const players  =  [
     {
       "team_id": 15,
       "player_id": 212,
+      "team_name": "TEMP",
       "name": "Jugador 15-2",
       "age": 22,
       "height": 161,
@@ -2760,6 +2971,7 @@ const players  =  [
     {
       "team_id": 15,
       "player_id": 213,
+      "team_name": "TEMP",
       "name": "Jugador 15-3",
       "age": 32,
       "height": 184,
@@ -2773,6 +2985,7 @@ const players  =  [
     {
       "team_id": 15,
       "player_id": 214,
+      "team_name": "TEMP",
       "name": "Jugador 15-4",
       "age": 26,
       "height": 170,
@@ -2786,6 +2999,7 @@ const players  =  [
     {
       "team_id": 15,
       "player_id": 215,
+      "team_name": "TEMP",
       "name": "Jugador 15-5",
       "age": 20,
       "height": 160,
@@ -2799,6 +3013,7 @@ const players  =  [
     {
       "team_id": 15,
       "player_id": 216,
+      "team_name": "TEMP",
       "name": "Jugador 15-6",
       "age": 31,
       "height": 173,
@@ -2812,6 +3027,7 @@ const players  =  [
     {
       "team_id": 15,
       "player_id": 217,
+      "team_name": "TEMP",
       "name": "Jugador 15-7",
       "age": 24,
       "height": 176,
@@ -2825,6 +3041,7 @@ const players  =  [
     {
       "team_id": 15,
       "player_id": 218,
+      "team_name": "TEMP",
       "name": "Jugador 15-8",
       "age": 18,
       "height": 190,
@@ -2838,6 +3055,7 @@ const players  =  [
     {
       "team_id": 15,
       "player_id": 219,
+      "team_name": "TEMP",
       "name": "Jugador 15-9",
       "age": 28,
       "height": 189,
@@ -2851,6 +3069,7 @@ const players  =  [
     {
       "team_id": 15,
       "player_id": 220,
+      "team_name": "TEMP",
       "name": "Jugador 15-10",
       "age": 18,
       "height": 185,
@@ -2864,6 +3083,7 @@ const players  =  [
     {
       "team_id": 15,
       "player_id": 221,
+      "team_name": "TEMP",
       "name": "Jugador 15-11",
       "age": 25,
       "height": 198,
@@ -2877,6 +3097,7 @@ const players  =  [
     {
       "team_id": 15,
       "player_id": 222,
+      "team_name": "TEMP",
       "name": "Jugador 15-12",
       "age": 28,
       "height": 196,
@@ -2890,6 +3111,7 @@ const players  =  [
     {
       "team_id": 15,
       "player_id": 223,
+      "team_name": "TEMP",
       "name": "Jugador 15-13",
       "age": 24,
       "height": 190,
@@ -2903,6 +3125,7 @@ const players  =  [
     {
       "team_id": 15,
       "player_id": 224,
+      "team_name": "TEMP",
       "name": "Jugador 15-14",
       "age": 26,
       "height": 169,
@@ -2916,6 +3139,7 @@ const players  =  [
     {
       "team_id": 15,
       "player_id": 225,
+      "team_name": "TEMP",
       "name": "Jugador 15-15",
       "age": 27,
       "height": 179,
@@ -2929,6 +3153,7 @@ const players  =  [
     {
       "team_id": 16,
       "player_id": 226,
+      "team_name": "UAS",
       "name": "Jugador 16-1",
       "age": 23,
       "height": 195,
@@ -2942,6 +3167,7 @@ const players  =  [
     {
       "team_id": 16,
       "player_id": 227,
+      "team_name": "UAS",
       "name": "Jugador 16-2",
       "age": 29,
       "height": 168,
@@ -2955,6 +3181,7 @@ const players  =  [
     {
       "team_id": 16,
       "player_id": 228,
+      "team_name": "UAS",
       "name": "Jugador 16-3",
       "age": 21,
       "height": 188,
@@ -2968,6 +3195,7 @@ const players  =  [
     {
       "team_id": 16,
       "player_id": 229,
+      "team_name": "UAS",
       "name": "Jugador 16-4",
       "age": 19,
       "height": 186,
@@ -2981,6 +3209,7 @@ const players  =  [
     {
       "team_id": 16,
       "player_id": 230,
+      "team_name": "UAS",
       "name": "Jugador 16-5",
       "age": 19,
       "height": 160,
@@ -2994,6 +3223,7 @@ const players  =  [
     {
       "team_id": 16,
       "player_id": 231,
+      "team_name": "UAS",
       "name": "Jugador 16-6",
       "age": 21,
       "height": 179,
@@ -3007,6 +3237,7 @@ const players  =  [
     {
       "team_id": 16,
       "player_id": 232,
+      "team_name": "UAS",
       "name": "Jugador 16-7",
       "age": 27,
       "height": 188,
@@ -3020,6 +3251,7 @@ const players  =  [
     {
       "team_id": 16,
       "player_id": 233,
+      "team_name": "UAS",
       "name": "Jugador 16-8",
       "age": 26,
       "height": 180,
@@ -3033,6 +3265,7 @@ const players  =  [
     {
       "team_id": 16,
       "player_id": 234,
+      "team_name": "UAS",
       "name": "Jugador 16-9",
       "age": 27,
       "height": 185,
@@ -3046,6 +3279,7 @@ const players  =  [
     {
       "team_id": 16,
       "player_id": 235,
+      "team_name": "UAS",
       "name": "Jugador 16-10",
       "age": 29,
       "height": 180,
@@ -3059,6 +3293,7 @@ const players  =  [
     {
       "team_id": 16,
       "player_id": 236,
+      "team_name": "UAS",
       "name": "Jugador 16-11",
       "age": 27,
       "height": 165,
@@ -3072,6 +3307,7 @@ const players  =  [
     {
       "team_id": 16,
       "player_id": 237,
+      "team_name": "UAS",
       "name": "Jugador 16-12",
       "age": 29,
       "height": 165,
@@ -3085,6 +3321,7 @@ const players  =  [
     {
       "team_id": 16,
       "player_id": 238,
+      "team_name": "UAS",
       "name": "Jugador 16-13",
       "age": 24,
       "height": 174,
@@ -3098,6 +3335,7 @@ const players  =  [
     {
       "team_id": 16,
       "player_id": 239,
+      "team_name": "UAS",
       "name": "Jugador 16-14",
       "age": 21,
       "height": 183,
@@ -3111,6 +3349,7 @@ const players  =  [
     {
       "team_id": 16,
       "player_id": 240,
+      "team_name": "UAS",
       "name": "Jugador 16-15",
       "age": 32,
       "height": 188,
@@ -3124,6 +3363,7 @@ const players  =  [
     {
       "team_id": 27,
       "player_id": 391,
+      "team_name": "BH",
       "name": "Jugador 27-1",
       "age": 21,
       "height": 171,
@@ -3137,6 +3377,7 @@ const players  =  [
     {
       "team_id": 27,
       "player_id": 392,
+      "team_name": "BH",
       "name": "Jugador 27-2",
       "age": 31,
       "height": 198,
@@ -3150,6 +3391,7 @@ const players  =  [
     {
       "team_id": 27,
       "player_id": 393,
+      "team_name": "BH",
       "name": "Jugador 27-3",
       "age": 24,
       "height": 166,
@@ -3163,6 +3405,7 @@ const players  =  [
     {
       "team_id": 27,
       "player_id": 394,
+      "team_name": "BH",
       "name": "Jugador 27-4",
       "age": 26,
       "height": 195,
@@ -3176,6 +3419,7 @@ const players  =  [
     {
       "team_id": 27,
       "player_id": 395,
+      "team_name": "BH",
       "name": "Jugador 27-5",
       "age": 30,
       "height": 176,
@@ -3189,6 +3433,7 @@ const players  =  [
     {
       "team_id": 27,
       "player_id": 396,
+      "team_name": "BH",
       "name": "Jugador 27-6",
       "age": 24,
       "height": 164,
@@ -3202,6 +3447,7 @@ const players  =  [
     {
       "team_id": 27,
       "player_id": 397,
+      "team_name": "BH",
       "name": "Jugador 27-7",
       "age": 29,
       "height": 194,
@@ -3215,6 +3461,7 @@ const players  =  [
     {
       "team_id": 27,
       "player_id": 398,
+      "team_name": "BH",
       "name": "Jugador 27-8",
       "age": 21,
       "height": 172,
@@ -3228,6 +3475,7 @@ const players  =  [
     {
       "team_id": 27,
       "player_id": 399,
+      "team_name": "BH",
       "name": "Jugador 27-9",
       "age": 22,
       "height": 183,
@@ -3241,6 +3489,7 @@ const players  =  [
     {
       "team_id": 27,
       "player_id": 400,
+      "team_name": "BH",
       "name": "Jugador 27-10",
       "age": 32,
       "height": 176,
@@ -3254,6 +3503,7 @@ const players  =  [
     {
       "team_id": 27,
       "player_id": 401,
+      "team_name": "BH",
       "name": "Jugador 27-11",
       "age": 24,
       "height": 180,
@@ -3267,6 +3517,7 @@ const players  =  [
     {
       "team_id": 27,
       "player_id": 402,
+      "team_name": "BH",
       "name": "Jugador 27-12",
       "age": 29,
       "height": 189,
@@ -3280,6 +3531,7 @@ const players  =  [
     {
       "team_id": 27,
       "player_id": 403,
+      "team_name": "BH",
       "name": "Jugador 27-13",
       "age": 25,
       "height": 189,
@@ -3293,6 +3545,7 @@ const players  =  [
     {
       "team_id": 27,
       "player_id": 404,
+      "team_name": "BH",
       "name": "Jugador 27-14",
       "age": 24,
       "height": 161,
@@ -3306,6 +3559,7 @@ const players  =  [
     {
       "team_id": 27,
       "player_id": 405,
+      "team_name": "BH",
       "name": "Jugador 27-15",
       "age": 26,
       "height": 198,
@@ -3319,6 +3573,7 @@ const players  =  [
     {
       "team_id": 28,
       "player_id": 406,
+      "team_name": "MAC",
       "name": "Jugador 28-1",
       "age": 23,
       "height": 189,
@@ -3332,6 +3587,7 @@ const players  =  [
     {
       "team_id": 28,
       "player_id": 407,
+      "team_name": "MAC",
       "name": "Jugador 28-2",
       "age": 23,
       "height": 184,
@@ -3345,6 +3601,7 @@ const players  =  [
     {
       "team_id": 28,
       "player_id": 408,
+      "team_name": "MAC",
       "name": "Jugador 28-3",
       "age": 27,
       "height": 166,
@@ -3358,6 +3615,7 @@ const players  =  [
     {
       "team_id": 28,
       "player_id": 409,
+      "team_name": "MAC",
       "name": "Jugador 28-4",
       "age": 24,
       "height": 170,
@@ -3371,6 +3629,7 @@ const players  =  [
     {
       "team_id": 28,
       "player_id": 410,
+      "team_name": "MAC",
       "name": "Jugador 28-5",
       "age": 32,
       "height": 187,
@@ -3384,6 +3643,7 @@ const players  =  [
     {
       "team_id": 28,
       "player_id": 411,
+      "team_name": "MAC",
       "name": "Jugador 28-6",
       "age": 24,
       "height": 183,
@@ -3397,6 +3657,7 @@ const players  =  [
     {
       "team_id": 28,
       "player_id": 412,
+      "team_name": "MAC",
       "name": "Jugador 28-7",
       "age": 27,
       "height": 197,
@@ -3410,6 +3671,7 @@ const players  =  [
     {
       "team_id": 28,
       "player_id": 413,
+      "team_name": "MAC",
       "name": "Jugador 28-8",
       "age": 24,
       "height": 196,
@@ -3423,6 +3685,7 @@ const players  =  [
     {
       "team_id": 28,
       "player_id": 414,
+      "team_name": "MAC",
       "name": "Jugador 28-9",
       "age": 27,
       "height": 195,
@@ -3436,6 +3699,7 @@ const players  =  [
     {
       "team_id": 28,
       "player_id": 415,
+      "team_name": "MAC",
       "name": "Jugador 28-10",
       "age": 19,
       "height": 177,
@@ -3449,6 +3713,7 @@ const players  =  [
     {
       "team_id": 28,
       "player_id": 416,
+      "team_name": "MAC",
       "name": "Jugador 28-11",
       "age": 24,
       "height": 162,
@@ -3462,6 +3727,7 @@ const players  =  [
     {
       "team_id": 28,
       "player_id": 417,
+      "team_name": "MAC",
       "name": "Jugador 28-12",
       "age": 27,
       "height": 181,
@@ -3475,6 +3741,7 @@ const players  =  [
     {
       "team_id": 28,
       "player_id": 418,
+      "team_name": "MAC",
       "name": "Jugador 28-13",
       "age": 24,
       "height": 168,
@@ -3488,6 +3755,7 @@ const players  =  [
     {
       "team_id": 28,
       "player_id": 419,
+      "team_name": "MAC",
       "name": "Jugador 28-14",
       "age": 21,
       "height": 173,
@@ -3501,6 +3769,7 @@ const players  =  [
     {
       "team_id": 28,
       "player_id": 420,
+      "team_name": "MAC",
       "name": "Jugador 28-15",
       "age": 30,
       "height": 169,
@@ -3514,6 +3783,7 @@ const players  =  [
     {
       "team_id": 29,
       "player_id": 421,
+      "team_name": "RCEN",
       "name": "Jugador 29-1",
       "age": 19,
       "height": 161,
@@ -3527,6 +3797,7 @@ const players  =  [
     {
       "team_id": 29,
       "player_id": 422,
+      "team_name": "RCEN",
       "name": "Jugador 29-2",
       "age": 19,
       "height": 198,
@@ -3540,6 +3811,7 @@ const players  =  [
     {
       "team_id": 29,
       "player_id": 423,
+      "team_name": "RCEN",
       "name": "Jugador 29-3",
       "age": 27,
       "height": 196,
@@ -3553,6 +3825,7 @@ const players  =  [
     {
       "team_id": 29,
       "player_id": 424,
+      "team_name": "RCEN",
       "name": "Jugador 29-4",
       "age": 32,
       "height": 197,
@@ -3566,6 +3839,7 @@ const players  =  [
     {
       "team_id": 29,
       "player_id": 425,
+      "team_name": "RCEN",
       "name": "Jugador 29-5",
       "age": 23,
       "height": 171,
@@ -3579,6 +3853,7 @@ const players  =  [
     {
       "team_id": 29,
       "player_id": 426,
+      "team_name": "RCEN",
       "name": "Jugador 29-6",
       "age": 29,
       "height": 192,
@@ -3592,6 +3867,7 @@ const players  =  [
     {
       "team_id": 29,
       "player_id": 427,
+      "team_name": "RCEN",
       "name": "Jugador 29-7",
       "age": 30,
       "height": 160,
@@ -3605,6 +3881,7 @@ const players  =  [
     {
       "team_id": 29,
       "player_id": 428,
+      "team_name": "RCEN",
       "name": "Jugador 29-8",
       "age": 18,
       "height": 182,
@@ -3618,6 +3895,7 @@ const players  =  [
     {
       "team_id": 29,
       "player_id": 429,
+      "team_name": "RCEN",
       "name": "Jugador 29-9",
       "age": 21,
       "height": 165,
@@ -3631,6 +3909,7 @@ const players  =  [
     {
       "team_id": 29,
       "player_id": 430,
+      "team_name": "RCEN",
       "name": "Jugador 29-10",
       "age": 26,
       "height": 168,
@@ -3644,6 +3923,7 @@ const players  =  [
     {
       "team_id": 29,
       "player_id": 431,
+      "team_name": "RCEN",
       "name": "Jugador 29-11",
       "age": 22,
       "height": 192,
@@ -3657,6 +3937,7 @@ const players  =  [
     {
       "team_id": 29,
       "player_id": 432,
+      "team_name": "RCEN",
       "name": "Jugador 29-12",
       "age": 27,
       "height": 174,
@@ -3670,6 +3951,7 @@ const players  =  [
     {
       "team_id": 29,
       "player_id": 433,
+      "team_name": "RCEN",
       "name": "Jugador 29-13",
       "age": 21,
       "height": 169,
@@ -3683,6 +3965,7 @@ const players  =  [
     {
       "team_id": 29,
       "player_id": 434,
+      "team_name": "RCEN",
       "name": "Jugador 29-14",
       "age": 22,
       "height": 185,
@@ -3696,6 +3979,7 @@ const players  =  [
     {
       "team_id": 29,
       "player_id": 435,
+      "team_name": "RCEN",
       "name": "Jugador 29-15",
       "age": 22,
       "height": 190,
@@ -3709,6 +3993,7 @@ const players  =  [
     {
       "team_id": 30,
       "player_id": 436,
+      "team_name": "CNSA",
       "name": "Jugador 30-1",
       "age": 30,
       "height": 169,
@@ -3722,6 +4007,7 @@ const players  =  [
     {
       "team_id": 30,
       "player_id": 437,
+      "team_name": "CNSA",
       "name": "Jugador 30-2",
       "age": 30,
       "height": 181,
@@ -3735,6 +4021,7 @@ const players  =  [
     {
       "team_id": 30,
       "player_id": 438,
+      "team_name": "CNSA",
       "name": "Jugador 30-3",
       "age": 22,
       "height": 196,
@@ -3748,6 +4035,7 @@ const players  =  [
     {
       "team_id": 30,
       "player_id": 439,
+      "team_name": "CNSA",
       "name": "Jugador 30-4",
       "age": 25,
       "height": 165,
@@ -3761,6 +4049,7 @@ const players  =  [
     {
       "team_id": 30,
       "player_id": 440,
+      "team_name": "CNSA",
       "name": "Jugador 30-5",
       "age": 30,
       "height": 180,
@@ -3774,6 +4063,7 @@ const players  =  [
     {
       "team_id": 30,
       "player_id": 441,
+      "team_name": "CNSA",
       "name": "Jugador 30-6",
       "age": 21,
       "height": 168,
@@ -3787,6 +4077,7 @@ const players  =  [
     {
       "team_id": 30,
       "player_id": 442,
+      "team_name": "CNSA",
       "name": "Jugador 30-7",
       "age": 32,
       "height": 188,
@@ -3800,6 +4091,7 @@ const players  =  [
     {
       "team_id": 30,
       "player_id": 443,
+      "team_name": "CNSA",
       "name": "Jugador 30-8",
       "age": 19,
       "height": 186,
@@ -3813,6 +4105,7 @@ const players  =  [
     {
       "team_id": 30,
       "player_id": 444,
+      "team_name": "CNSA",
       "name": "Jugador 30-9",
       "age": 20,
       "height": 191,
@@ -3826,6 +4119,7 @@ const players  =  [
     {
       "team_id": 30,
       "player_id": 445,
+      "team_name": "CNSA",
       "name": "Jugador 30-10",
       "age": 20,
       "height": 175,
@@ -3839,6 +4133,7 @@ const players  =  [
     {
       "team_id": 30,
       "player_id": 446,
+      "team_name": "CNSA",
       "name": "Jugador 30-11",
       "age": 22,
       "height": 165,
@@ -3852,6 +4147,7 @@ const players  =  [
     {
       "team_id": 30,
       "player_id": 447,
+      "team_name": "CNSA",
       "name": "Jugador 30-12",
       "age": 31,
       "height": 164,
@@ -3865,6 +4161,7 @@ const players  =  [
     {
       "team_id": 30,
       "player_id": 448,
+      "team_name": "CNSA",
       "name": "Jugador 30-13",
       "age": 29,
       "height": 193,
@@ -3878,6 +4175,7 @@ const players  =  [
     {
       "team_id": 30,
       "player_id": 449,
+      "team_name": "CNSA",
       "name": "Jugador 30-14",
       "age": 18,
       "height": 169,
@@ -3891,6 +4189,7 @@ const players  =  [
     {
       "team_id": 30,
       "player_id": 450,
+      "team_name": "CNSA",
       "name": "Jugador 30-15",
       "age": 19,
       "height": 186,
@@ -3904,6 +4203,7 @@ const players  =  [
     {
       "team_id": 31,
       "player_id": 451,
+      "team_name": "TRPB",
       "name": "Jugador 31-1",
       "age": 19,
       "height": 188,
@@ -3917,6 +4217,7 @@ const players  =  [
     {
       "team_id": 31,
       "player_id": 452,
+      "team_name": "TRPB",
       "name": "Jugador 31-2",
       "age": 26,
       "height": 185,
@@ -3930,6 +4231,7 @@ const players  =  [
     {
       "team_id": 31,
       "player_id": 453,
+      "team_name": "TRPB",
       "name": "Jugador 31-3",
       "age": 25,
       "height": 192,
@@ -3943,6 +4245,7 @@ const players  =  [
     {
       "team_id": 31,
       "player_id": 454,
+      "team_name": "TRPB",
       "name": "Jugador 31-4",
       "age": 18,
       "height": 199,
@@ -3956,6 +4259,7 @@ const players  =  [
     {
       "team_id": 31,
       "player_id": 455,
+      "team_name": "TRPB",
       "name": "Jugador 31-5",
       "age": 26,
       "height": 173,
@@ -3969,6 +4273,7 @@ const players  =  [
     {
       "team_id": 31,
       "player_id": 456,
+      "team_name": "TRPB",
       "name": "Jugador 31-6",
       "age": 29,
       "height": 163,
@@ -3982,6 +4287,7 @@ const players  =  [
     {
       "team_id": 31,
       "player_id": 457,
+      "team_name": "TRPB",
       "name": "Jugador 31-7",
       "age": 26,
       "height": 174,
@@ -3995,6 +4301,7 @@ const players  =  [
     {
       "team_id": 31,
       "player_id": 458,
+      "team_name": "TRPB",
       "name": "Jugador 31-8",
       "age": 32,
       "height": 181,
@@ -4008,6 +4315,7 @@ const players  =  [
     {
       "team_id": 31,
       "player_id": 459,
+      "team_name": "TRPB",
       "name": "Jugador 31-9",
       "age": 20,
       "height": 184,
@@ -4021,6 +4329,7 @@ const players  =  [
     {
       "team_id": 31,
       "player_id": 460,
+      "team_name": "TRPB",
       "name": "Jugador 31-10",
       "age": 18,
       "height": 160,
@@ -4034,6 +4343,7 @@ const players  =  [
     {
       "team_id": 31,
       "player_id": 461,
+      "team_name": "TRPB",
       "name": "Jugador 31-11",
       "age": 30,
       "height": 172,
@@ -4046,6 +4356,7 @@ const players  =  [
     },
     {
       "team_id": 31,
+      "team_name": "TRPB",
       "player_id": 462,
       "name": "Jugador 31-12",
       "age": 28,
@@ -4060,6 +4371,7 @@ const players  =  [
     {
       "team_id": 31,
       "player_id": 463,
+      "team_name": "TRPB",
       "name": "Jugador 31-13",
       "age": 23,
       "height": 164,
@@ -4073,6 +4385,7 @@ const players  =  [
     {
       "team_id": 31,
       "player_id": 464,
+      "team_name": "TRPB",
       "name": "Jugador 31-14",
       "age": 26,
       "height": 168,
@@ -4086,6 +4399,7 @@ const players  =  [
     {
       "team_id": 31,
       "player_id": 465,
+      "team_name": "TRPB",
       "name": "Jugador 31-15",
       "age": 26,
       "height": 196,
@@ -4099,6 +4413,7 @@ const players  =  [
     {
       "team_id": 32,
       "player_id": 466,
+      "team_name": "TEMP",
       "name": "Jugador 32-1",
       "age": 32,
       "height": 166,
@@ -4112,6 +4427,7 @@ const players  =  [
     {
       "team_id": 32,
       "player_id": 467,
+      "team_name": "TEMP",
       "name": "Jugador 32-2",
       "age": 26,
       "height": 169,
@@ -4125,6 +4441,7 @@ const players  =  [
     {
       "team_id": 32,
       "player_id": 468,
+      "team_name": "TEMP",
       "name": "Jugador 32-3",
       "age": 32,
       "height": 196,
@@ -4138,6 +4455,7 @@ const players  =  [
     {
       "team_id": 32,
       "player_id": 469,
+      "team_name": "TEMP",
       "name": "Jugador 32-4",
       "age": 22,
       "height": 178,
@@ -4151,6 +4469,7 @@ const players  =  [
     {
       "team_id": 32,
       "player_id": 470,
+      "team_name": "TEMP",
       "name": "Jugador 32-5",
       "age": 30,
       "height": 166,
@@ -4164,6 +4483,7 @@ const players  =  [
     {
       "team_id": 32,
       "player_id": 471,
+      "team_name": "TEMP",
       "name": "Jugador 32-6",
       "age": 29,
       "height": 173,
@@ -4177,6 +4497,7 @@ const players  =  [
     {
       "team_id": 32,
       "player_id": 472,
+      "team_name": "TEMP",
       "name": "Jugador 32-7",
       "age": 26,
       "height": 187,
@@ -4190,6 +4511,7 @@ const players  =  [
     {
       "team_id": 32,
       "player_id": 473,
+      "team_name": "TEMP",
       "name": "Jugador 32-8",
       "age": 22,
       "height": 172,
@@ -4203,6 +4525,7 @@ const players  =  [
     {
       "team_id": 32,
       "player_id": 474,
+      "team_name": "TEMP",
       "name": "Jugador 32-9",
       "age": 31,
       "height": 168,
@@ -4216,6 +4539,7 @@ const players  =  [
     {
       "team_id": 32,
       "player_id": 475,
+      "team_name": "TEMP",
       "name": "Jugador 32-10",
       "age": 26,
       "height": 177,
@@ -4229,6 +4553,7 @@ const players  =  [
     {
       "team_id": 32,
       "player_id": 476,
+      "team_name": "TEMP",
       "name": "Jugador 32-11",
       "age": 19,
       "height": 196,
@@ -4242,6 +4567,7 @@ const players  =  [
     {
       "team_id": 32,
       "player_id": 477,
+      "team_name": "TEMP",
       "name": "Jugador 32-12",
       "age": 22,
       "height": 175,
@@ -4255,6 +4581,7 @@ const players  =  [
     {
       "team_id": 32,
       "player_id": 478,
+      "team_name": "TEMP",
       "name": "Jugador 32-13",
       "age": 27,
       "height": 164,
@@ -4268,6 +4595,7 @@ const players  =  [
     {
       "team_id": 32,
       "player_id": 479,
+      "team_name": "TEMP",
       "name": "Jugador 32-14",
       "age": 27,
       "height": 178,
@@ -4281,6 +4609,7 @@ const players  =  [
     {
       "team_id": 32,
       "player_id": 480,
+      "team_name": "TEMP",
       "name": "Jugador 32-15",
       "age": 23,
       "height": 191,
@@ -4294,6 +4623,7 @@ const players  =  [
     {
       "team_id": 33,
       "player_id": 481,
+      "team_name": "UAS",
       "name": "Jugador 33-1",
       "age": 18,
       "height": 174,
@@ -4307,6 +4637,7 @@ const players  =  [
     {
       "team_id": 33,
       "player_id": 482,
+      "team_name": "UAS",
       "name": "Jugador 33-2",
       "age": 21,
       "height": 195,
@@ -4320,6 +4651,7 @@ const players  =  [
     {
       "team_id": 33,
       "player_id": 483,
+      "team_name": "UAS",
       "name": "Jugador 33-3",
       "age": 22,
       "height": 188,
@@ -4333,6 +4665,7 @@ const players  =  [
     {
       "team_id": 33,
       "player_id": 484,
+      "team_name": "UAS",
       "name": "Jugador 33-4",
       "age": 19,
       "height": 160,
@@ -4346,6 +4679,7 @@ const players  =  [
     {
       "team_id": 33,
       "player_id": 485,
+      "team_name": "UAS",
       "name": "Jugador 33-5",
       "age": 19,
       "height": 162,
@@ -4359,6 +4693,7 @@ const players  =  [
     {
       "team_id": 33,
       "player_id": 486,
+      "team_name": "UAS",
       "name": "Jugador 33-6",
       "age": 28,
       "height": 166,
@@ -4372,6 +4707,7 @@ const players  =  [
     {
       "team_id": 33,
       "player_id": 487,
+      "team_name": "UAS",
       "name": "Jugador 33-7",
       "age": 18,
       "height": 184,
@@ -4385,6 +4721,7 @@ const players  =  [
     {
       "team_id": 33,
       "player_id": 488,
+      "team_name": "UAS",
       "name": "Jugador 33-8",
       "age": 23,
       "height": 166,
@@ -4398,6 +4735,7 @@ const players  =  [
     {
       "team_id": 33,
       "player_id": 489,
+      "team_name": "UAS",
       "name": "Jugador 33-9",
       "age": 20,
       "height": 166,
@@ -4411,6 +4749,7 @@ const players  =  [
     {
       "team_id": 33,
       "player_id": 490,
+      "team_name": "UAS",
       "name": "Jugador 33-10",
       "age": 30,
       "height": 191,
@@ -4424,6 +4763,7 @@ const players  =  [
     {
       "team_id": 33,
       "player_id": 491,
+      "team_name": "UAS",
       "name": "Jugador 33-11",
       "age": 27,
       "height": 165,
@@ -4437,6 +4777,7 @@ const players  =  [
     {
       "team_id": 33,
       "player_id": 492,
+      "team_name": "UAS",
       "name": "Jugador 33-12",
       "age": 30,
       "height": 195,
@@ -4450,6 +4791,7 @@ const players  =  [
     {
       "team_id": 33,
       "player_id": 493,
+      "team_name": "UAS",
       "name": "Jugador 33-13",
       "age": 21,
       "height": 190,
@@ -4463,6 +4805,7 @@ const players  =  [
     {
       "team_id": 33,
       "player_id": 494,
+      "team_name": "UAS",
       "name": "Jugador 33-14",
       "age": 23,
       "height": 187,
@@ -4476,6 +4819,7 @@ const players  =  [
     {
       "team_id": 33,
       "player_id": 495,
+      "team_name": "UAS",
       "name": "Jugador 33-15",
       "age": 19,
       "height": 170,
@@ -4489,6 +4833,7 @@ const players  =  [
     {
       "team_id": 34,
       "player_id": 496,
+      "team_name": "RSN",
       "name": "Jugador 34-1",
       "age": 31,
       "height": 180,
@@ -4502,6 +4847,7 @@ const players  =  [
     {
       "team_id": 34,
       "player_id": 497,
+      "team_name": "RSN",
       "name": "Jugador 34-2",
       "age": 23,
       "height": 190,
@@ -4515,6 +4861,7 @@ const players  =  [
     {
       "team_id": 34,
       "player_id": 498,
+      "team_name": "RSN",
       "name": "Jugador 34-3",
       "age": 30,
       "height": 187,
@@ -4528,6 +4875,7 @@ const players  =  [
     {
       "team_id": 34,
       "player_id": 499,
+      "team_name": "RSN",
       "name": "Jugador 34-4",
       "age": 31,
       "height": 192,
@@ -4541,6 +4889,7 @@ const players  =  [
     {
       "team_id": 34,
       "player_id": 500,
+      "team_name": "RSN",
       "name": "Jugador 34-5",
       "age": 18,
       "height": 185,
@@ -4554,6 +4903,7 @@ const players  =  [
     {
       "team_id": 34,
       "player_id": 501,
+      "team_name": "RSN",
       "name": "Jugador 34-6",
       "age": 20,
       "height": 196,
@@ -4567,6 +4917,7 @@ const players  =  [
     {
       "team_id": 34,
       "player_id": 502,
+      "team_name": "RSN",
       "name": "Jugador 34-7",
       "age": 24,
       "height": 191,
@@ -4580,6 +4931,7 @@ const players  =  [
     {
       "team_id": 34,
       "player_id": 503,
+      "team_name": "RSN",
       "name": "Jugador 34-8",
       "age": 23,
       "height": 187,
@@ -4593,6 +4945,7 @@ const players  =  [
     {
       "team_id": 34,
       "player_id": 504,
+      "team_name": "RSN",
       "name": "Jugador 34-9",
       "age": 29,
       "height": 170,
@@ -4606,6 +4959,7 @@ const players  =  [
     {
       "team_id": 34,
       "player_id": 505,
+      "team_name": "RSN",
       "name": "Jugador 34-10",
       "age": 27,
       "height": 194,
@@ -4619,6 +4973,7 @@ const players  =  [
     {
       "team_id": 34,
       "player_id": 506,
+      "team_name": "RSN",
       "name": "Jugador 34-11",
       "age": 31,
       "height": 163,
@@ -4632,6 +4987,7 @@ const players  =  [
     {
       "team_id": 34,
       "player_id": 507,
+      "team_name": "RSN",
       "name": "Jugador 34-12",
       "age": 29,
       "height": 191,
@@ -4645,6 +5001,7 @@ const players  =  [
     {
       "team_id": 34,
       "player_id": 508,
+      "team_name": "RSN",
       "name": "Jugador 34-13",
       "age": 19,
       "height": 193,
@@ -4658,6 +5015,7 @@ const players  =  [
     {
       "team_id": 34,
       "player_id": 509,
+      "team_name": "RSN",
       "name": "Jugador 34-14",
       "age": 32,
       "height": 169,
@@ -4671,6 +5029,7 @@ const players  =  [
     {
       "team_id": 34,
       "player_id": 510,
+      "team_name": "RSN",
       "name": "Jugador 34-15",
       "age": 19,
       "height": 173,
@@ -4684,6 +5043,7 @@ const players  =  [
     {
       "team_id": 35,
       "player_id": 511,
+      "team_name": "SCDG",
       "name": "Jugador 35-1",
       "age": 28,
       "height": 179,
@@ -4697,6 +5057,7 @@ const players  =  [
     {
       "team_id": 35,
       "player_id": 512,
+      "team_name": "SCDG",
       "name": "Jugador 35-2",
       "age": 22,
       "height": 192,
@@ -4710,6 +5071,7 @@ const players  =  [
     {
       "team_id": 35,
       "player_id": 513,
+      "team_name": "SCDG",
       "name": "Jugador 35-3",
       "age": 27,
       "height": 164,
@@ -4723,6 +5085,7 @@ const players  =  [
     {
       "team_id": 35,
       "player_id": 514,
+      "team_name": "SCDG",
       "name": "Jugador 35-4",
       "age": 26,
       "height": 178,
@@ -4736,6 +5099,7 @@ const players  =  [
     {
       "team_id": 35,
       "player_id": 515,
+      "team_name": "SCDG",
       "name": "Jugador 35-5",
       "age": 22,
       "height": 183,
@@ -4749,6 +5113,7 @@ const players  =  [
     {
       "team_id": 35,
       "player_id": 516,
+      "team_name": "SCDG",
       "name": "Jugador 35-6",
       "age": 30,
       "height": 188,
@@ -4762,6 +5127,7 @@ const players  =  [
     {
       "team_id": 35,
       "player_id": 517,
+      "team_name": "SCDG",
       "name": "Jugador 35-7",
       "age": 23,
       "height": 165,
@@ -4775,6 +5141,7 @@ const players  =  [
     {
       "team_id": 35,
       "player_id": 518,
+      "team_name": "SCDG",
       "name": "Jugador 35-8",
       "age": 32,
       "height": 194,
@@ -4788,6 +5155,7 @@ const players  =  [
     {
       "team_id": 35,
       "player_id": 519,
+      "team_name": "SCDG",
       "name": "Jugador 35-9",
       "age": 31,
       "height": 160,
@@ -4801,6 +5169,7 @@ const players  =  [
     {
       "team_id": 35,
       "player_id": 520,
+      "team_name": "SCDG",
       "name": "Jugador 35-10",
       "age": 32,
       "height": 192,
@@ -4814,6 +5183,7 @@ const players  =  [
     {
       "team_id": 35,
       "player_id": 521,
+      "team_name": "SCDG",
       "name": "Jugador 35-11",
       "age": 28,
       "height": 195,
@@ -4827,6 +5197,7 @@ const players  =  [
     {
       "team_id": 35,
       "player_id": 522,
+      "team_name": "SCDG",
       "name": "Jugador 35-12",
       "age": 30,
       "height": 177,
@@ -4840,6 +5211,7 @@ const players  =  [
     {
       "team_id": 35,
       "player_id": 523,
+      "team_name": "SCDG",
       "name": "Taurasi",
       "age": 19,
       "height": 168,
@@ -4853,6 +5225,7 @@ const players  =  [
     {
       "team_id": 35,
       "player_id": 524,
+      "team_name": "SCDG",
       "name": "Ana Hahe",
       "age": 23,
       "height": 170,
@@ -4866,6 +5239,7 @@ const players  =  [
     {
       "team_id": 35,
       "player_id": 525,
+      "team_name": "SCDG",
       "name": "Clark",
       "age": 20,
       "height": 173,
@@ -4901,7 +5275,8 @@ document.addEventListener("DOMContentLoaded", () => {
           .filter(player => player.tournament === currentTournament)
           .map(player => ({
               name: player.name,
-              average: (player[stat] / (player.games_played || 1)).toFixed(2) // Calcular promedio por juego
+              team: player.team_name,
+              average: (player[stat] / (player.games_played || 1)).toFixed(1) // Calcular promedio por juego
           }))
           .sort((a, b) => b.average - a.average)
           .slice(0, 10);
@@ -4909,6 +5284,7 @@ document.addEventListener("DOMContentLoaded", () => {
       let tableContent = `<thead>
           <tr>
               <th>Jugador</th>
+              <th>Equipo</th>
               <th>${stat.charAt(0).toUpperCase() + stat.slice(1)}</th>
           </tr>
       </thead>
@@ -4917,6 +5293,7 @@ document.addEventListener("DOMContentLoaded", () => {
       topPlayers.forEach(player => {
           tableContent += `<tr>
               <td>${player.name}</td>
+              <td>${player.team}</td>
               <td>${player.average}</td>
           </tr>`;
       });
@@ -5015,9 +5392,9 @@ const leaders = getLeaders(players);
             <p style="background-color: rgb(0, 30, 100); margin:0px; padding:5px" >Edad: ${player.age}</p>
             <p style="background-color: rgb(0, 30, 100); margin:0px; padding:5px" >Altura: ${player.height} cm</p>
             <p style="background-color: rgb(0, 30, 100); margin:0px; padding:5px" >Partidos jugados: ${player.games_played}</p>
-            <p style="background-color: rgb(0, 30, 100); margin:0px; padding:5px" >Puntos: ${player.points}</p>
-            <p style="background-color: rgb(0, 30, 100); margin:0px; padding:5px" >Rebotes: ${player.rebounds}</p>
-            <p style="background-color: rgb(0, 30, 100); margin:0px; padding:5px" >Asistencias: ${player.assists}</p>
+            <p style="background-color: rgb(0, 30, 100); margin:0px; padding:5px" >Puntos: ${(player.points/player.games_played).toFixed(1)}</p>
+            <p style="background-color: rgb(0, 30, 100); margin:0px; padding:5px" >Rebotes: ${(player.rebounds/player.games_played).toFixed(1)}</p>
+            <p style="background-color: rgb(0, 30, 100); margin:0px; padding:5px" >Asistencias: ${(player.assists/player.games_played).toFixed(1)}</p>
             
         `;
 
@@ -5027,34 +5404,3 @@ const leaders = getLeaders(players);
     function closeModal() {
         document.getElementById("modal").style.display = "none";
     };
-
-
-function updateTables(tournament = null) {
-  const filteredPlayers = tournament !== null ? players.filter(p => p.tournament === tournament) : players;
-  
-  createTable('pointsTable', filteredPlayers, 'points');
-  createTable('reboundsTable', filteredPlayers, 'rebounds');
-  createTable('assistsTable', filteredPlayers, 'assists');
-  createLeaderButtons(filteredPlayers);
-}
-
-function createTable(tableId, data, stat) {
-  const table = document.getElementById(tableId);
-  table.innerHTML = `<tr><th>Jugador</th><th> ${stat.charAt(0).toUpperCase() + stat.slice(1)}</th></tr>`;
-  
-  const top10 = data.filter(p => p.games_played > 0)
-                   .map(p => ({ name: p.name, avg: (p[stat] / p.games_played).toFixed(2) }))
-                   .sort((a, b) => b.avg - a.avg)
-                   .slice(0, 10);
-  
-  top10.forEach(player => {
-      table.innerHTML += `<tr><td>${player.name}</td><td>${player.avg}</td></tr>`;
-  });
-}
-
-
-
-function showTable(tableId) {
-  document.querySelectorAll('.stat-table').forEach(table => table.classList.add('hidden'));
-  document.getElementById(tableId).classList.remove('hidden');
-}
