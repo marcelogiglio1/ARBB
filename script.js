@@ -12,10 +12,10 @@ window.onclick = function(event) {
 document.addEventListener("DOMContentLoaded", () => {
     const streamContainer = document.getElementById("streamContainer");
     const channels = [
-        { name: "Rosario Central vs Newells Old Boys", url: "https://www.youtube.com/watch?v=jTDk5CswBVk", type: "masculino" },
-        { name: "Canal 2", url: "https://www.youtube.com/@ARBBTV" , type: "femenino" },
-        { name: "Canal 3", url: "https://www.youtube.com/watch?v=QGpHLgRnrx4", type: "masculino" },
-        { name: "Partido Femenino 2", url: "https://www.youtube.com/@CanalFemenino2/live", type: "femenino" }
+        { name: "21:00 hs Rosario Central vs Newells Old Boys", url: "https://www.youtube.com/watch?v=jTDk5CswBVk", type: "masculino" },
+        { name: "21:00 hs Ben Hur vs Atalaya", url: "https://www.youtube.com/@ARBBTV" , type: "femenino" },
+        { name: "21:00 hs CAOVA vs Nautico", url: "https://www.youtube.com/watch?v=QGpHLgRnrx4", type: "masculino" },
+        { name: "21:00 hs Regatas SN vs Union AS", url: "https://www.youtube.com/@CanalFemenino2/live", type: "femenino" }
     ];
 
     function createStreamButton(channel) {
