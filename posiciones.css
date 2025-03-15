@@ -123,18 +123,17 @@ button {
 button:hover {
     background-color: rgb(200, 40, 45);
 }
-@media (max-width: 600px) {
-    table {
-        width: 90%;
-    }
-    th, td {
-        padding: 5px;
-    }
-}
+
 .footer {
     justify-content: center;
     padding: 10px;
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+@media (min-width: 800px) {
+    table {
+        width: 720px;
+        margin: 1% auto;
+    }
 }
