@@ -5216,7 +5216,7 @@ const players  =  [
       "age": 19,
       "height": 168,
       "tournament": true,
-      "image": "jugadores/Taurasi.png",
+      "image": "jugadores/0101.png",
       "games_played": 1,
       "points": 104,
       "rebounds": 14,
