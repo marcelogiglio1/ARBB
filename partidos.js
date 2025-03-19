@@ -227,7 +227,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       playersInTeam.forEach(player => {
           const playerButton = document.createElement("button");
-          playerButton.innerHTML = `<img src="${player.image}" alt="${player.name}" width="80">`;
+          playerButton.innerHTML = `<img src="${player.face}" alt="${player.name}" width="80">`;
           playerButton.classList.add("player-button");
           playerButton.dataset.name = player.name;
           playerButton.dataset.age = player.age;
@@ -257,9 +257,9 @@ document.addEventListener("DOMContentLoaded", () => {
           <p><strong>Puntos:</strong> ${player.points} pts</p>
           <p><strong>Rebotes:</strong> ${player.rebounds} reb</p>
           <p><strong>Asistencias:</strong> ${player.assists} asis</p>
-          <p><strong>Puntos por juego:</strong> ${player.games_played > 0 ? (player.points / player.games_played).toFixed(2) : "N/A"} pts</p>
-          <p><strong>Rebotes por juego:</strong> ${player.games_played > 0 ? (player.rebounds / player.games_played).toFixed(2) : "N/A"} reb</p>
-          <p><strong>Asistencias por juego:</strong> ${player.games_played > 0 ? (player.assists / player.games_played).toFixed(2) : "N/A"} asis</p>
+          <p><strong>Puntos por juego:</strong> ${player.games_played > 0 ? (player.points / player.games_played).toFixed(1) : "N/A"} pts</p>
+          <p><strong>Rebotes por juego:</strong> ${player.games_played > 0 ? (player.rebounds / player.games_played).toFixed(1) : "N/A"} reb</p>
+          <p><strong>Asistencias por juego:</strong> ${player.games_played > 0 ? (player.assists / player.games_played).toFixed(1) : "N/A"} asis</p>
           <button id="closeModal">X</button>
       `;
 
